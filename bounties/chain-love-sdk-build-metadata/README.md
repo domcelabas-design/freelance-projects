@@ -1,0 +1,44 @@
+# Chain.Love SDK build-metadata fix
+
+Prepared on 2026-09-16. The patch is complete and tested locally; it has **not been submitted upstream**. No reward has been assigned, approved, or received.
+
+## Deliverables
+
+- [fix.patch](fix.patch): two small production changes and eight regression tests.
+- [issue-draft.md](issue-draft.md): an upstream bug report and an explicit request to confirm whether paid work is available.
+
+The target is `Chain-Love/chain-love`, branch `json-tools`, commit `24d9e96116496ca4fe5d3dd2478353f6b4c7ad58`. The patch changes three files: 72 insertions and 4 deletions. It does not change database records.
+
+## What it fixes
+
+GitHub and npm metadata updaters reject stable versions whose build metadata contains a hyphen or a word such as `dev`. For example, `2.0.0+sha-7` is skipped and an older `1.0.0` can be selected instead. The fix checks the portion before `+` for prerelease markers while retaining the complete selected version.
+
+The [SemVer specification, sections 9–11](https://semver.org/spec/v2.0.0.html#spec-item-9), distinguishes prerelease identifiers from build metadata. This is a focused correction to the existing parsers, not a new strict SemVer parser.
+
+## Verification
+
+The unmodified source fails the regression suite with 13 assertion/subtest failures across eight test methods. With the patch, all eight tests pass. Tests use synthetic API fixtures and make no network requests. They cover stable build metadata, genuine prereleases, GitHub draft/prerelease flags, selected version/date pairing, npm dist-tag preference, and fallback ordering. `git diff --check` passes.
+
+Run from a clean checkout at the target commit, replacing `/path/to/fix.patch` with this patch's location:
+
+```sh
+python3 -m venv .venv
+.venv/bin/python -m pip install --no-index --find-links tools/wheels -r tools/requirements.txt
+git apply --check /path/to/fix.patch
+git apply /path/to/fix.patch
+.venv/bin/python -B -m unittest discover -s tests -v
+git diff --check
+```
+
+## Reward and submission status
+
+The [published program](https://github.com/Chain-Love/chain-love/discussions/41) advertises 10 USDC for approved database improvement proposals. That does **not** establish a reward for this tooling bug. A maintainer must confirm eligibility and any amount. The program pays monthly on Ethereum, not PayPal. On September 8 the maintainers warned that new DBIP reviews may take months.
+
+The connected GitHub integration can write existing repositories but exposes no fork or star action. At preparation time `domcelabas-design/chain-love` did not exist. To prepare an upstream PR:
+
+1. Star [Chain-Love/chain-love](https://github.com/Chain-Love/chain-love), as required by the program.
+2. [Create a fork](https://github.com/Chain-Love/chain-love/fork) under `domcelabas-design`; include all branches by clearing “Copy the main branch only.”
+3. Apply the patch on a new branch based on `json-tools`, recheck against the current upstream branch, and open a draft PR targeting upstream `json-tools`.
+4. Obtain explicit confirmation of paid eligibility. Supply a user-controlled public Ethereum-mainnet receiving address if a reward is approved. No payment address is configured in this submission.
+
+Research, implementation, and tests were performed by a Codex AI assistant. No independent human review is claimed. The evidence demonstrates a parser/selection defect using fixtures; it does not establish that a particular live SDK record is currently incorrect.
