@@ -1,6 +1,6 @@
 # Chain.Love SDK build-metadata fix
 
-Prepared on 2026-09-16. The patch is complete and tested locally; it has **not been submitted upstream**. No reward has been assigned, approved, or received.
+Updated on 2026-09-17. The patch is tested and pushed to `domcelabas-design/chain-love:fix/sdk-build-metadata`. **No upstream PR exists yet** because the integration cannot create a PR in the upstream repository. No reward has been assigned, approved, or received.
 
 ## Deliverables
 
@@ -32,13 +32,10 @@ git diff --check
 
 ## Reward and submission status
 
-The [published program](https://github.com/Chain-Love/chain-love/discussions/41) advertises 10 USDC for approved database improvement proposals. That does **not** establish a reward for this tooling bug. A maintainer must confirm eligibility and any amount. The program pays monthly on Ethereum, not PayPal. On September 8 the maintainers warned that new DBIP reviews may take months.
+The fix is published in [the fork](https://github.com/domcelabas-design/chain-love/tree/fix/sdk-build-metadata), commit `c6ed2531c1bce895d84e55ac40ce3abc4f825141`. The upstream comparison has one commit and exactly the three intended files.
 
-The connected GitHub integration can write existing repositories but exposes no fork or star action. At preparation time `domcelabas-design/chain-love` did not exist. To prepare an upstream PR:
+[Open the prepared PR submission instructions](pull-request-draft.md). That page includes a link to the upstream PR form with the title and description filled in. GitHub rejected automated PR creation with HTTP 403, `Resource not accessible by integration`; the account owner must submit the form from their GitHub session. No additional fork is needed.
 
-1. Star [Chain-Love/chain-love](https://github.com/Chain-Love/chain-love), as required by the program.
-2. [Create a fork](https://github.com/Chain-Love/chain-love/fork) under `domcelabas-design`; include all branches by clearing “Copy the main branch only.”
-3. Apply the patch on a new branch based on `json-tools`, recheck against the current upstream branch, and open a draft PR targeting upstream `json-tools`.
-4. Obtain explicit confirmation of paid eligibility. Supply a user-controlled public Ethereum-mainnet receiving address if a reward is approved. No payment address is configured in this submission.
+The [published program](https://github.com/Chain-Love/chain-love/discussions/41) advertises 10 USDC for approved database improvement proposals. That does **not** establish a reward for this tooling bug. A maintainer must confirm eligibility and any amount. The program pays monthly on Ethereum, not PayPal. On September 8 the maintainers warned that new DBIP reviews may take months. The star requirement remains applicable; its status has not been verified through the integration.
 
 Research, implementation, and tests were performed by a Codex AI assistant. No independent human review is claimed. The evidence demonstrates a parser/selection defect using fixtures; it does not establish that a particular live SDK record is currently incorrect.
