@@ -1,14 +1,10 @@
-# Ready to submit: SDK build-metadata fix
+# Submitted: SDK build-metadata fix
 
-The patch is published in [domcelabas-design/chain-love, branch fix/sdk-build-metadata](https://github.com/domcelabas-design/chain-love/tree/fix/sdk-build-metadata), commit `c6ed2531c1bce895d84e55ac40ce3abc4f825141`.
+Upstream **[PR #3863](https://github.com/Chain-Love/chain-love/pull/3863)** is open as of 2026-09-17. No further PR needs to be created for this fix. It targets `json-tools` with commit `c6ed2531c1bce895d84e55ac40ce3abc4f825141` from `domcelabas-design/chain-love:fix/sdk-build-metadata`.
 
-**[Open the prefilled pull request](https://github.com/Chain-Love/chain-love/compare/json-tools...domcelabas-design:chain-love:fix/sdk-build-metadata?quick_pull=1&title=fix%28sdks%29%3A+distinguish+build+metadata+from+prerelease+markers&body=%23%23+Summary%0AGitHub+and+npm+SDK+updaters+skip+stable+versions+such+as+%602.0.0%2Bsha-7%60+or+%602.0.0%2Bdev.7%60%2C+selecting+older+releases.+Check+prerelease+markers+before+%60%2B%60+and+preserve+the+complete+version.+Existing+GitHub+release+flags+and+npm+dist-tag+preference+remain+unchanged.%0A%0A%23%23+Scope+and+validation%0AGlobal+SDK+tooling%3B+no+CSV+cells+or+schema+changes.+Three+files%2C+72+additions+and+4+deletions.+All+eight+offline+unittest+methods+pass%3B+the+original+source+has+13+assertion%2Fsubtest+failures.+Fixtures+cover+stable+build+metadata%2C+actual+prereleases%2C+release+flags%2C+matching+version%2Fdate%2C+and+npm+selection%2Fordering.+No+particular+live+SDK+record+is+claimed+to+be+affected.%0A%0ARun%3A+%60python3+-B+-m+unittest+discover+-s+tests+-v%60%0A%0A%5BReproduction+and+details%5D%28https%3A%2F%2Fgithub.com%2Fdomcelabas-design%2Ffreelance-projects%2Fblob%2Fbounty%2Fchain-love-sdk-build-metadata%2Fbounties%2Fchain-love-sdk-build-metadata%2Fissue-draft.md%29.%0A%0A%23%23+Paid+eligibility+and+disclosure%0APrepared+and+tested+by+a+Codex+AI+assistant%3B+no+independent+human+review+is+claimed.+Would+you+sponsor+this+tooling+fix%2C+and+what+reward+and+acceptance+conditions+would+apply%3F+The+advertised+10+USDC+approved-DBIP+reward+is+not+assumed+to+cover+this+bug.+No+reward+has+been+agreed+or+received%2C+and+no+payout+address+is+configured.%0A%0A-+%5B+%5D+Repository+star+requirement%3A+not+verified+by+the+integration.%0A-+Data-specific+validation+attestations%3A+not+applicable.)**
+The account owner completed submission after automated creation was rejected with HTTP 403, `Resource not accessible by integration`. The PR currently has no maintainer comments or reviews. No reward has been agreed, approved, or received.
 
-Review the title, description and changes, then click **Create pull request**. To retain draft status, choose **Create draft pull request** from the button's dropdown instead.
-
-Status checked on 2026-09-17: writing to the fork succeeds. The attempt to create an upstream PR was rejected by GitHub with HTTP 403, `Resource not accessible by integration`. A follow-up check confirmed no upstream PR exists for this branch. The remaining action must be performed from the account owner's GitHub session; granting more access to the fork did not grant the integration access to the upstream project.
-
-Remote comparison verified: one commit, exactly three intended files, 72 additions and 4 deletions. All eight local offline tests pass. No reward has been agreed or received.
+The change is one commit, three files, 72 additions and 4 deletions. All eight offline tests pass. The submitted description is retained below.
 
 Title: **fix(sdks): distinguish build metadata from prerelease markers**
 
