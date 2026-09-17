@@ -1,6 +1,6 @@
 # Chain.Love SDK build-metadata fix
 
-Updated on 2026-09-17. The patch is tested and pushed to `domcelabas-design/chain-love:fix/sdk-build-metadata`. **No upstream PR exists yet** because the integration cannot create a PR in the upstream repository. No reward has been assigned, approved, or received.
+Updated on 2026-09-17. The patch is tested and pushed to `domcelabas-design/chain-love:fix/sdk-build-metadata`. **Upstream [PR #3863](https://github.com/Chain-Love/chain-love/pull/3863) is now open.** It targets `json-tools` with the tested commit. No reward has been assigned, approved, or received.
 
 ## Deliverables
 
@@ -34,7 +34,7 @@ git diff --check
 
 The fix is published in [the fork](https://github.com/domcelabas-design/chain-love/tree/fix/sdk-build-metadata), commit `c6ed2531c1bce895d84e55ac40ce3abc4f825141`. The upstream comparison has one commit and exactly the three intended files.
 
-[Open the prepared PR submission instructions](pull-request-draft.md). That page includes a link to the upstream PR form with the title and description filled in. GitHub rejected automated PR creation with HTTP 403, `Resource not accessible by integration`; the account owner must submit the form from their GitHub session. No additional fork is needed.
+[PR #3863](https://github.com/Chain-Love/chain-love/pull/3863) has been submitted from the account owner's GitHub session. The earlier integration attempt received HTTP 403, `Resource not accessible by integration`; no repeat submission is needed. On 2026-09-17 the PR is open, with no maintainer comments or reviews and no reward agreement. [The submitted description and validation details](pull-request-draft.md) are retained for reference.
 
 The [published program](https://github.com/Chain-Love/chain-love/discussions/41) advertises 10 USDC for approved database improvement proposals. That does **not** establish a reward for this tooling bug. A maintainer must confirm eligibility and any amount. The program pays monthly on Ethereum, not PayPal. On September 8 the maintainers warned that new DBIP reviews may take months. The star requirement remains applicable; its status has not been verified through the integration.
 
