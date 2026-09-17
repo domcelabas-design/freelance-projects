@@ -1,49 +1,31 @@
-# Prepared upstream pull request
+# Ready to submit: SDK build-metadata fix
 
-Status on 2026-09-16: the fork `domcelabas-design/chain-love` exists, but GitHub rejected branch creation with HTTP 403, `Resource not accessible by integration`. The connector's accessible-repository list still contains only `domcelabas-design/freelance-projects`. No upstream PR was created.
+The patch is published in [domcelabas-design/chain-love, branch fix/sdk-build-metadata](https://github.com/domcelabas-design/chain-love/tree/fix/sdk-build-metadata), commit `c6ed2531c1bce895d84e55ac40ce3abc4f825141`.
 
-The fork contains only `main`, but the target `json-tools` commit is readable through the fork. Once repository access is granted, create `fix/sdk-build-metadata` directly from commit `24d9e96116496ca4fe5d3dd2478353f6b4c7ad58`, upload the three files in `fix.patch`, and create a draft PR targeting `Chain-Love/chain-love:json-tools`. Recheck upstream before submitting if it has changed.
+**[Open the prefilled pull request](https://github.com/Chain-Love/chain-love/compare/json-tools...domcelabas-design:chain-love:fix/sdk-build-metadata?quick_pull=1&title=fix%28sdks%29%3A+distinguish+build+metadata+from+prerelease+markers&body=%23%23+Summary%0AGitHub+and+npm+SDK+updaters+skip+stable+versions+such+as+%602.0.0%2Bsha-7%60+or+%602.0.0%2Bdev.7%60%2C+selecting+older+releases.+Check+prerelease+markers+before+%60%2B%60+and+preserve+the+complete+version.+Existing+GitHub+release+flags+and+npm+dist-tag+preference+remain+unchanged.%0A%0A%23%23+Scope+and+validation%0AGlobal+SDK+tooling%3B+no+CSV+cells+or+schema+changes.+Three+files%2C+72+additions+and+4+deletions.+All+eight+offline+unittest+methods+pass%3B+the+original+source+has+13+assertion%2Fsubtest+failures.+Fixtures+cover+stable+build+metadata%2C+actual+prereleases%2C+release+flags%2C+matching+version%2Fdate%2C+and+npm+selection%2Fordering.+No+particular+live+SDK+record+is+claimed+to+be+affected.%0A%0ARun%3A+%60python3+-B+-m+unittest+discover+-s+tests+-v%60%0A%0A%5BReproduction+and+details%5D%28https%3A%2F%2Fgithub.com%2Fdomcelabas-design%2Ffreelance-projects%2Fblob%2Fbounty%2Fchain-love-sdk-build-metadata%2Fbounties%2Fchain-love-sdk-build-metadata%2Fissue-draft.md%29.%0A%0A%23%23+Paid+eligibility+and+disclosure%0APrepared+and+tested+by+a+Codex+AI+assistant%3B+no+independent+human+review+is+claimed.+Would+you+sponsor+this+tooling+fix%2C+and+what+reward+and+acceptance+conditions+would+apply%3F+The+advertised+10+USDC+approved-DBIP+reward+is+not+assumed+to+cover+this+bug.+No+reward+has+been+agreed+or+received%2C+and+no+payout+address+is+configured.%0A%0A-+%5B+%5D+Repository+star+requirement%3A+not+verified+by+the+integration.%0A-+Data-specific+validation+attestations%3A+not+applicable.)**
+
+Review the title, description and changes, then click **Create pull request**. To retain draft status, choose **Create draft pull request** from the button's dropdown instead.
+
+Status checked on 2026-09-17: writing to the fork succeeds. The attempt to create an upstream PR was rejected by GitHub with HTTP 403, `Resource not accessible by integration`. A follow-up check confirmed no upstream PR exists for this branch. The remaining action must be performed from the account owner's GitHub session; granting more access to the fork did not grant the integration access to the upstream project.
+
+Remote comparison verified: one commit, exactly three intended files, 72 additions and 4 deletions. All eight local offline tests pass. No reward has been agreed or received.
 
 Title: **fix(sdks): distinguish build metadata from prerelease markers**
 
 ---
 
 ## Summary
+GitHub and npm SDK updaters skip stable versions such as `2.0.0+sha-7` or `2.0.0+dev.7`, selecting older releases. Check prerelease markers before `+` and preserve the complete version. Existing GitHub release flags and npm dist-tag preference remain unchanged.
 
-The GitHub and npm SDK metadata updaters reject stable versions when build metadata contains a hyphen or a prerelease keyword, such as `2.0.0+sha-7` or `2.0.0+dev.7`. They can consequently select an older release and record its version and date.
+## Scope and validation
+Global SDK tooling; no CSV cells or schema changes. Three files, 72 additions and 4 deletions. All eight offline unittest methods pass; the original source has 13 assertion/subtest failures. Fixtures cover stable build metadata, actual prereleases, release flags, matching version/date, and npm selection/ordering. No particular live SDK record is claimed to be affected.
 
-Check prerelease markers only before the first `+`, while preserving the full version in the output. GitHub's existing tag-format validation, draft/prerelease flags, and npm dist-tag preference remain in effect. [SemVer sections 9–11](https://semver.org/spec/v2.0.0.html#spec-item-9) distinguish prerelease identifiers from build metadata.
+Run: `python3 -B -m unittest discover -s tests -v`
 
-## Type of change
-
-- [x] Tooling bug fix: SDK metadata generation
-- No CSV rows or schema changes
-
-## Scope
-
-- Networks: global tooling
-- Category: `sdks`
-- Base: `json-tools` at `24d9e96116496ca4fe5d3dd2478353f6b4c7ad58`
-- Three files, 72 insertions and 4 deletions
-
-## Validation
-
-```sh
-python3 -B -m unittest discover -s tests -v
-git diff --cached --check
-```
-
-All eight test methods pass with the patch. Against the unmodified source, the same suite reports 13 assertion/subtest failures.
-
-The offline fixtures cover stable build metadata, genuine prerelease exclusion, GitHub draft/prerelease flags, matching version and release date, npm dist-tag preference, fallback selection, and ordering that ignores build metadata. They make no network requests. They demonstrate a parser/selection defect; no particular live SDK record is claimed to be affected.
-
-## Contribution checklist
-
-- [ ] Star requirement: account-owner status has not been verified by the integration.
-- Data-specific provider, network-support, cell-value, and new-link attestations: not applicable; no database cells or links are changed.
+[Reproduction and details](https://github.com/domcelabas-design/freelance-projects/blob/bounty/chain-love-sdk-build-metadata/bounties/chain-love-sdk-build-metadata/issue-draft.md).
 
 ## Paid eligibility and disclosure
+Prepared and tested by a Codex AI assistant; no independent human review is claimed. Would you sponsor this tooling fix, and what reward and acceptance conditions would apply? The advertised 10 USDC approved-DBIP reward is not assumed to cover this bug. No reward has been agreed or received, and no payout address is configured.
 
-Prepared and tested by a Codex AI assistant for the account owner. No independent human review is claimed.
-
-This draft requests review of the fix and confirmation of paid eligibility. Would the maintainers sponsor this tooling correction, and if so, what reward and acceptance conditions apply? The advertised 10 USDC approved-DBIP reward is not assumed to cover an ordinary tooling bug. No per-cell reward or existing bounty assignment is claimed. No reward has been agreed or received, and no payout address is configured.
+- [ ] Repository star requirement: not verified by the integration.
+- Data-specific validation attestations: not applicable.
