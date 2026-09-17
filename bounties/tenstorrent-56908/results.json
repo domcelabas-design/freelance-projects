@@ -1,0 +1,94 @@
+{
+  "sourceRevision": "ab7a0dbcc7d28d29822c465346e9ef0141ba9c31",
+  "kind": "integer address model, not production or hardware test",
+  "totals": {
+    "cases": 162,
+    "currentFailing": 99,
+    "strideOnlyFailing": 99,
+    "completeAddressingFailing": 0
+  },
+  "oneDimensionalControls": 27,
+  "example": [
+    {
+      "mode": "current",
+      "rows": 16,
+      "width": 16,
+      "gridLimit": 8,
+      "coresX": 8,
+      "coresY": 8,
+      "rowsPerCore": 2,
+      "columnsPerCore": 2,
+      "ownershipMismatches": 64,
+      "duplicates": 126,
+      "outOfBounds": 0,
+      "missing": 126,
+      "core_1_0_reads": [
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "mode": "stride-only",
+      "rows": 16,
+      "width": 16,
+      "gridLimit": 8,
+      "coresX": 8,
+      "coresY": 8,
+      "rowsPerCore": 2,
+      "columnsPerCore": 2,
+      "ownershipMismatches": 56,
+      "duplicates": 112,
+      "outOfBounds": 0,
+      "missing": 112,
+      "core_1_0_reads": [
+        16,
+        17,
+        32,
+        33
+      ]
+    },
+    {
+      "mode": "complete-addressing",
+      "rows": 16,
+      "width": 16,
+      "gridLimit": 8,
+      "coresX": 8,
+      "coresY": 8,
+      "rowsPerCore": 2,
+      "columnsPerCore": 2,
+      "ownershipMismatches": 0,
+      "duplicates": 0,
+      "outOfBounds": 0,
+      "missing": 0,
+      "core_1_0_reads": [
+        32,
+        33,
+        48,
+        49
+      ]
+    }
+  ],
+  "writerCounterexample": {
+    "expected": [
+      32,
+      33,
+      48,
+      49
+    ],
+    "flatAfterStartCorrection": [
+      32,
+      33,
+      34,
+      35
+    ]
+  },
+  "welfordTrafficExample": {
+    "rowsPerCore": 2,
+    "fullWidth": 16,
+    "localWidth": 2,
+    "readerTilesWithCurrentArguments": 32,
+    "computeTiles": 4
+  }
+}
