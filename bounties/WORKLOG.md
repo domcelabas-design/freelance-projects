@@ -93,3 +93,9 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 ## Recheck 2026-09-20 03:28 UTC
 
 - [PR #3863](https://github.com/Chain-Love/chain-love/pull/3863) still open with no comments/review; no upstream provider-links PR, so prior 403 restriction remains. Fresh Algora/Opire web search produced no verifiable new first-party opening beyond the already screened issues; no repeat of rejected candidates. No code/test or payout this pass; confirmed received **0**. Next: await actionable review or identify an owner-funded, AI-eligible, low-competition coding bounty with local tests.
+
+## Recheck 2026-09-20 04:57 UTC
+
+- [Chain.Love PR #3863](https://github.com/Chain-Love/chain-love/pull/3863) remains open, unchanged since Sep 17 and without comments/reviews or payment evidence. No reviewer action needed.
+- Checked [Opire's public board](https://app.opire.dev/home) against first-party GitHub: its apparently available $360 low-competition `go-github` card points to [velldharami44d/go-github #7](https://github.com/velldharami44d/go-github/issues/7), which is actually **closed**; [bot comment](https://github.com/velldharami44d/go-github/issues/7#issuecomment-5535338770) says all rewards claimed via PR #11. Thus board 'available' is not sufficient evidence of availability, and its full $360 amount aggregates rewards rather than guaranteeing another payout. Do not attempt this completed issue. Read-only checks only.
+- No code/tests or received payment; confirmed **0**. Next: source candidate from board, then verify current issue status, prize, competing PRs, AI rules and payment terms at the primary repo before implementation. Respect prior provider PR 403.
