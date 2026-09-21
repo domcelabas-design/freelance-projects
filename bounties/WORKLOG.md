@@ -312,3 +312,15 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - [HeroesReplay #24](https://github.com/HeroesReplay/HeroesReplay/issues/24) and [#25](https://github.com/HeroesReplay/HeroesReplay/issues/25) were opened by the maintainer but state no cash reward or payment terms; #24 also requires replay/map validation. They are not eligible paid tasks.
 - Work performed: persisted-state review, PR feedback/payment check, incremental bounty search, and direct primary-source validation of the only new cash-denominated proposal plus two potentially actionable maintainer issues. No code/test/PR was justified. Confirmed payment remains **none**.
 - Next step: continue incrementally from this checkpoint and act only when a first-party fixed reward is approved, the task is unassigned with no competing implementation, AI use is allowed, and acceptance can be verified locally.
+
+
+## Recheck 2026-09-21 13:37 UTC
+
+- [Chain.Love PR #3863](https://github.com/Chain-Love/chain-love/pull/3863) is still open, mergeable and unchanged at `c6ed2531c1bce895d84e55ac40ce3abc4f825141`; comments and reviews remain empty, with no reward or payment confirmation. The prior provider-link 403 was not retried.
+- Incremental GitHub searches since 12:30 UTC found no new open issue with a real `bounty` label. Most matches used “reward” as application/game terminology or were automated bounty-search mirrors rather than first-party offers.
+- Two fresh BountyScout mirrors ([freedom-winds #1100](https://github.com/freedom-winds/BountyScout/issues/1100), [vansh-09 #1168](https://github.com/vansh-09/BountyScout/issues/1168)) were unpacked to their primary sources. Their only plausible items were rejected after direct checks:
+  - [Arbiter contract #122](https://github.com/Arbiter-xyz/arbiter-contract/issues/122) asks someone to publish a severity/reward table rather than offering a funded reward; it already has competing PR #131 and requests a Solana payout wallet.
+  - [Activepieces #15366](https://github.com/activepieces/activepieces/issues/15366) is an unpaid support bug with at least five linked implementation PRs (#15377, #15478, #15479, #15480, #15682), so it is highly contested and not a bounty.
+  - [Priors #1](https://github.com/priors-agents/priors/issues/1) now contains an explicit maintainer answer: no bounty programme and no payment. The reported defects are already fixed/deployed, so it is not an available paid task.
+- Work performed: saved-state and PR feedback/payment check, incremental search, mirror expansion, and first-party reward/competition verification. No code/test/PR was justified. Confirmed payment remains **none**.
+- Next step: continue from this checkpoint, ignoring these mirror entries unless a maintainer publishes a changed, funded offer; prioritize newly approved fixed-price tasks with no competing implementation and local tests.
