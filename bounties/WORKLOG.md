@@ -435,3 +435,13 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - Atliktas konkretus darbas: perskaityta išsaugota būsena, patikrinta PR diskusija ir CI, atlikta naujų issue paieška, patikrintos trijų plausibilių kandidatų pirminės atlygio, nuosavybės, konkurencijos ir aparatinės prieigos sąlygos, atnaujintas žurnalas.
 - Tikras atlygio statusas: reklamuojami ar siūlomi dydžiai nėra uždirbti; priimto PR ar patvirtinto gauto mokėjimo nėra.
 - Kitas žingsnis: stebėti #3863 sprendimą; 2026-09-24 OpenPlaid peržiūrėti tik jei pirminiame issue atsiras faktinis finansavimo patvirtinimas, bet atmesti konkrečias integracijas, kurios reikalauja asmeninių banko duomenų ar realios finansinės operacijos. Toliau ieškoti platformiškai finansuoto, vietoje testuojamo kodo darbo be konkuruojančio PR.
+
+
+## 2026-09-22 20:27 UTC
+
+- Patikrinta naujausia [Chain-Love/chain-love#3863](https://github.com/Chain-Love/chain-love/pull/3863) būsena: PR tebėra atviras, nesujungtas, sujungiamas ir be naujų komentarų ar peržiūrų. Po ankstesnio sėkmingo CI naujo priėmimo ar atlygio įrodymo nėra.
+- Inkrementinė paieška nuo 20:10 UTC nerado naujo patikimai finansuoto, mažai konkuruojamo programavimo darbo. Nauji rezultatai daugiausia buvo įprasti neapmokami issue arba žodis `paid` apibūdino produkto mokėjimus, ne programuotojo atlygį.
+- [claude-builders-bounty#3](https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3) peržiūrėtas tik todėl, kad po paskutinio įrašo buvo atnaujintas. Sąlygos nepagerėjo: issue turi 1 763 komentarus, daug `/opire try` rezervacijų, jau pateiktų sprendimų ir bent vieną nurodytą PR. 100 USD reklama nėra racionali esant tokiai konkurencijai; nedubliuota ir viešas rezervavimo komentaras nerašytas.
+- Atliktas konkretus darbas: PR/atsiliepimų patikra, GitHub naujų bei atnaujintų finansavimo signalų paieška, pasikeitusio claude-builders kandidato konkurencijos patikra ir žurnalo atnaujinimas.
+- Tikras atlygio statusas: priimto PR ar patvirtinto mokėjimo nėra.
+- Kitas žingsnis: tęsti tik po šio laiko sukurtų arba materialiai pasikeitusių kandidatų paiešką; #3863 stebėti dėl prižiūrėtojo sprendimo, o OpenPlaid nevertinti iš naujo iki deklaruotos 2026-09-24 finansavimo datos ir tik esant aiškiam finansavimo įrodymui.
