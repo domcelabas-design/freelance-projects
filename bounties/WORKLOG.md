@@ -395,3 +395,15 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - Naujo tinkamo kandidato, kuriam būtų pagrįsta pradėti kodą ar rezervuoti darbą, nerasta. Šį kartą kodo pakeitimų ir naujų testų nėra.
 - Tikras atlygio statusas: reklamuojamas / priimtas / gautas atlygis nepasikeitė; patvirtintų gautų pinigų nėra.
 - Kitas žingsnis: tęsti inkrementinę naujų ir reikšmingai atnaujintų finansuotų issue paiešką bei stebėti #3863 atsiliepimus, nekartojant atmestų kandidatų be naujų faktų.
+
+
+## 2026-09-22 01:22 UTC
+
+- Perskaityta išsaugota būsena ir patikrintas [Chain-Love/chain-love#3863](https://github.com/Chain-Love/chain-love/pull/3863). Atsirado naujas 2026-09-22 00:59 UTC prižiūrėtojo komentaras: peržiūra laukia, kol privalomas `Generate JSON and validate (isolated)` patikrinimas bus atkurtas ir praeis ([komentaras](https://github.com/Chain-Love/chain-love/pull/3863#issuecomment-5769744850)).
+- Ištirta pirminė gedimo priežastis: ankstesnis [Validate JSON run #35200623965](https://github.com/Chain-Love/chain-love/actions/runs/35200623965) nepateko iki testų, nes bazinis workflow `json-tools` PR aplinkoje vykdė `pip install -r requirements.txt` saugyklos šaknyje, nors priklausomybės ir skriptai yra `tools/`. Job žurnale tikslus gedimas: `No such file or directory: 'requirements.txt'`.
+- Patikrinti projekto precedentai [#3671](https://github.com/Chain-Love/chain-love/pull/3671) ir [#3738](https://github.com/Chain-Love/chain-love/pull/3738): jie taip pat taiso neveikiantį bazinį workflow, naudoja Python 3.12 konteinerį, vendored `tools/wheels` ir `--network=none`. Dabartinis `main` patikrinimas naudoja tikslų job pavadinimą `Generate JSON and validate (isolated)`.
+- Į `domcelabas-design/chain-love:fix/sdk-build-metadata` įdėtas atskiras workflow `.github/workflows/sdk-metadata-tests.yaml`, commit `a3e5b351f5a404d6b8b8d8089a05f7f32242a501`. Jis izoliuotame Python 3.12 konteineryje be tinklo diegia tik vendored wheel priklausomybes ir paleidžia visus 8 `tests/test_sdk_build_metadata.py` regresinius testus. Bazinis `.github/workflows/validate.yaml` paliktas nepakeistas, todėl PR vėl yra `mergeable: true`.
+- Naujas [GitHub Actions run #35675375500](https://github.com/Chain-Love/chain-love/actions/runs/35675375500) sukurtas, bet jo išvada `action_required`: upstream prižiūrėtojas turi patvirtinti fork workflow paleidimą. Tai nėra testo nesėkmė; job dar nebuvo vykdytas. Ankstesnis vietinis įrodymas tebėra 8/8 sėkmingi unittest metodai; aparatiniai ar live-network bandymai neteigiami.
+- Vienkartinis bandymas PR komentare pateikti commit, run nuorodą ir AI atskleidimą grąžino HTTP 403 `Resource not accessible by integration`; pagal apribojimą bandymas nekartotas. Viešas PR body jau sąžiningai atskleidžia Codex AI indėlį.
+- Atlygio statusas: PR neatmestas ir nepriimtas; jokio atlygio susitarimo ar patvirtinto mokėjimo nėra.
+- Kitas žingsnis: tikrinti, ar upstream prižiūrėtojas patvirtino run #35675375500; jam startavus patikrinti visų 8 testų žurnalą ir tik tada laikyti CI pastabą išspręsta. Jei nepatvirtinama, tęsti kitų aiškiai finansuotų, vietoje patikrinamų GitHub užduočių paiešką.
