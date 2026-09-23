@@ -539,3 +539,14 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - The competing [Chronicle bounty #1 claim #81](https://github.com/josedab/chronicle/issues/81) remains the current public claim for the PromQL task. The prepared branch stays shelved; no duplicate claim, 403 retry or PR was attempted.
 - Incremental searches after 09:00 UTC produced wallet declarations, product/payment-rail feature suggestions, token/protocol reward mechanics, planned in-game rewards, aggregator alerts and ordinary unpaid bugs. None was a first-party promise of cash compensation for an available implementation. No code was started on those false positives.
 - Confirmed amount received remains **0**. Next: continue monitoring #3863 and seek an explicitly funded, unassigned first-party task; do not revive Chronicle #1 unless claim #81 is released.
+
+
+## Recheck 2026-09-23 10:52 UTC
+
+- [Chain.Love PR #3863](https://github.com/Chain-Love/chain-love/pull/3863) remains open, unmerged and mergeable at the same successful CI head; no new feedback or payment evidence appeared.
+- Investigated three seemingly funded tscircuit issues at their primary repositories rather than relying on search-board status:
+  - [file-server #5](https://github.com/tscircuit/file-server/issues/5) advertises $10, but the current repository already contains the requested download behavior and the project's later issue #149 explicitly calls #5 “already rewarded.” No duplicate work.
+  - [template-api-fake #2](https://github.com/tscircuit/template-api-fake/issues/2) advertises $12, but current `main` already uses `ky`, contains no `redaxios`, and the Algora record shows multiple prior rewarded solutions plus many active/recent attempts. Rejected as completed and heavily competed.
+  - [jlcsearch #92](https://github.com/tscircuit/jlcsearch/issues/92) advertises $75, but its Algora attempt table contains many rewarded submissions, existing PRs including #185/#409/#587, and ongoing attempts. Rejected as heavily competed and already repeatedly rewarded.
+- A new [Omi #17300](https://github.com/BasedHardware/omi/issues/17300) is again a retrospective $50 proposal with the implementation already prepared by its reporter, not an available funded assignment. AnySearch integration proposals still lack a Claim ID and remain ineligible to start. Other new results were aggregators, internal work queues or non-cash/token rewards.
+- No new code or public claim was started because all plausible candidates failed current availability or competition checks. Confirmed amount received remains **0**. Next: keep monitoring #3863 and target newly posted, first-party funded issues before any implementation/claim exists; verify the live Algora attempt table rather than trusting an open issue state.
