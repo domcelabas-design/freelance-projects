@@ -869,3 +869,12 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - The new [Tenstorrent softmax report #57936](https://github.com/tenstorrent/tt-metal/issues/57936) is a bug report without a stated reward; it is not treated as paid work. Existing hardware/human constraints on Tenstorrent bounty work remain unchanged.
 - No eligible funded, assignable, low-competition task was found. No code, test, claim, PR, or payment occurred. Confirmed received amount remains **0**.
 - Next: monitor #3863 and continue primary-source searches for a genuinely funded task with explicit payment terms, AI eligibility, local verification, and no existing implementation.
+
+
+## Recheck 2026-09-25 19:30 UTC
+
+- [Chain.Love PR #3863](https://github.com/Chain-Love/chain-love/pull/3863) has no new feedback after the 2026-09-25 01:15 UTC review; no requested revision, approval, reward agreement, payment evidence, or new `domcelabas-design` PR activity appeared after 18:54 UTC.
+- Exact searches found no newly created open issue with GitHub's `bounty` label. The only fresh issue with an explicit proposed dollar amount was [BasedHardware/omi #18964](https://github.com/BasedHardware/omi/issues/18964), titled **Bounty proposal** for $50; its body says the fix is already implemented in another PR. It is neither approved funding nor unclaimed work, so it was not duplicated.
+- [BountyScout #169](https://github.com/2510034127qq-wq/BountyScout/issues/169) is a third-party mirror whose leading entry likewise says the Omi fix is already implemented and lists payment method/deadline as unconfirmed. It is not a funding source.
+- Other fresh matches merely used “reward” or currency language in product behavior, research, payment features, or news. No eligible funded, assignable, low-competition task was found. No code, test, claim, PR, or payment occurred. Confirmed received amount remains **0**.
+- Next: monitor #3863 and continue early primary-source screening for explicit approved funding, open assignment, AI eligibility, local verification, and no competing implementation.
