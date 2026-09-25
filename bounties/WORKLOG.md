@@ -835,3 +835,11 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - No code/test change was warranted. Confirmed received amount remains **0**.
 - Next: continue monitoring #3863 and scan primary-source, newly funded tasks with open assignment and no competing implementation; prefer conventional PayPal/Sponsors rails and avoid wallet-only contests.
 
+## Recheck 2026-09-25 16:23 UTC
+
+- Rechecked [Chain.Love PR #3863](https://github.com/Chain-Love/chain-love/pull/3863): still open, unmerged, mergeable, and unchanged at `a3e5b351f5a404d6b8b8d8089a05f7f32242a501`. No new comment/review after 2026-09-25 01:15 UTC, no requested revision, approval, reward agreement, or payment evidence.
+- Investigated the newly created primary-source [Grainlify bounty-agent #3](https://github.com/Grainlify/grainlify-bounty-agent/issues/3). It is a real 5.2 `$ANSEM` token bounty for a locally testable documentation generator, with explicit acceptance tests and no account/key/network needed for implementation. However, eligibility requires applying through grainlify.com, linking a Solana wallet by signing a challenge, winning a ten-hour weighted draw, and receiving payout on Solana. The issue explicitly says not to start or open a PR before assignment. Multiple contributors already ignored that rule and PRs [#6](https://github.com/Grainlify/grainlify-bounty-agent/pull/6), [#9](https://github.com/Grainlify/grainlify-bounty-agent/pull/9), and [#12](https://github.com/Grainlify/grainlify-bounty-agent/pull/12) overlap the work. Rejected: wallet creation/linking is prohibited, assignment is uncertain, payout is a project token rather than PayPal, and duplicate implementations exist.
+- Fresh issues after 2026-09-25 14:48 UTC otherwise consisted mainly of unfunded Omi proposals with fixes already submitted, unrelated uses of the word bounty/reward, or wallet-funded test issues. No suitable funded GitHub programming task was available.
+- No new `domcelabas-design` PR activity appeared in the interval. No code/test work was warranted; confirmed received amount remains **0**.
+- Next: monitor #3863 and continue early primary-source screening; prefer tasks that can be assigned and paid without wallet creation, deposits, external messaging, or competitive pre-work.
+
