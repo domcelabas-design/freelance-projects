@@ -986,3 +986,15 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - Fresh searches otherwise found no newly opened funded task. New Omi “bounty proposals” are again paired with already-prepared contributor work, not unclaimed approved rewards.
 - No eligible funded task, new PR, acceptance, or payment occurred. Confirmed received amount remains **0**.
 - Next: after the transient GitHub rate limit clears, perform one fresh duplicate-PR check for #499; if clear, verify repository contribution/AI rules and request assignment before coding. Continue monitoring #3863.
+
+
+## Candidate verification 2026-09-26 09:51 UTC
+
+- Existing work first: [Chain.Love PR #3863](https://github.com/Chain-Love/chain-love/pull/3863) is still open with no feedback newer than 2026-09-25 01:15 UTC and no payment evidence. No Chronicle claim issue by `domcelabas-design` appeared.
+- Selected the next low-competition candidate: [NextCommunity #499 — Open Graph Meta Tags Issues](https://github.com/NextCommunity/NextCommunity.github.io/issues/499). It is open, unassigned, carries the `$1` label, has **zero comments**, and a fresh repository PR search for “Open Graph” returned **zero PRs**.
+- Current primary-source payment/workflow terms remain in [program issue #613](https://github.com/NextCommunity/NextCommunity.github.io/issues/613): **$1.00 USD through GitHub Sponsors**, explicit assignment by `@jbampton` required before writing code, one active issue at a time, merged PR must close the issue, and assignment can be revoked after seven days without progress.
+- Repository review: Eleventy 3.1.6, Node >=22, Nunjucks and Tailwind; `npm run build` is the relevant local build. README requires a dedicated branch and PR to `main`. No `CONTRIBUTING.md`, `AGENTS.md`, or `CLAUDE.md` was present at the common root paths, and the reviewed README/program rules contain no AI-use prohibition. AI assistance must still be disclosed in the PR.
+- Scope remains suitable for local verification: identify the homepage head template, correct Open Graph metadata shown as faulty in the issue, run the Eleventy production build, inspect the generated homepage tags, and validate the public preview. No implementation was started because assignment-before-code is mandatory.
+- Necessary owner action: ensure `domcelabas-design` has an active GitHub Sponsors profile and post one assignment request on #499: “I'd like to work on this $1 issue. Please assign it to @domcelabas-design before I begin, as required by the bounty rules. I plan to update and validate the Open Graph metadata locally with the Eleventy build and disclose Codex assistance in the PR.”
+- Reward is advertised but not earned. Confirmed received amount remains **0**.
+- Next: monitor #499 for assignment; once assigned, inspect the exact template, implement on a dedicated fork branch, build/test, recheck competing PRs, and submit with AI disclosure.
