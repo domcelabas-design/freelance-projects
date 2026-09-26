@@ -1114,3 +1114,13 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - The wider current bounty-label results were dominated by “next-bounty” TODO backlogs and bounty-board projects with claim instructions but no verifiable posted funding. They were not treated as paid opportunities, and no reservation comment or implementation was started.
 - No eligible funded task, submitted/accepted PR, or payment occurred. Confirmed received amount remains **0**.
 - Next: monitor #3863 and newly opened primary-source tasks whose amount, claimability, payout method, and acceptance conditions are all explicit.
+
+
+## Recheck 2026-09-26 22:40 UTC
+
+- [Chain.Love PR #3863](https://github.com/Chain-Love/chain-love/pull/3863) remains open and unchanged; newest feedback is still the 2026-09-25 01:15 UTC COMMENT review. No acceptance, reward agreement, or payment evidence appeared. There is still no Chronicle claim, assigned issue, or additional open PR by `domcelabas-design`.
+- No new exact `bounty`- or `reward`-label issue appeared after 21:45 UTC.
+- Investigated a new BountyScout claim that [DREAMBORN issue #6](https://github.com/justinb2bea/dreamborn-website/issues/6) offered “$250; $40”. The primary issue is a May briefing, not a bounty: those figures describe a historical **$250K hackathon prize pool / $40K track**, while the requested mainnet verification has no promised amount, submission path, assignment, deadline, or payment method. The sole new comment instead asks for a paid $0.005 USDC API call, which would require spending and was not attempted. Rejected the candidate; no implementation or comment was made.
+- The other aggregator item, [stellarcade #1306](https://github.com/theblockcade/stellarcade/issues/1306), specifies a bounty-contract product feature but no contributor reward or payment terms, so it is not a paid task.
+- No eligible funded task, submitted/accepted PR, or payment occurred. Confirmed received amount remains **0**.
+- Next: monitor #3863 and primary-source fixed-reward tasks; treat aggregator amounts as unverified until the source itself promises them.
