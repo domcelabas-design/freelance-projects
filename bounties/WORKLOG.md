@@ -1124,3 +1124,13 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - The other aggregator item, [stellarcade #1306](https://github.com/theblockcade/stellarcade/issues/1306), specifies a bounty-contract product feature but no contributor reward or payment terms, so it is not a paid task.
 - No eligible funded task, submitted/accepted PR, or payment occurred. Confirmed received amount remains **0**.
 - Next: monitor #3863 and primary-source fixed-reward tasks; treat aggregator amounts as unverified until the source itself promises them.
+
+
+## Recheck 2026-09-27 00:18 UTC
+
+- [Chain.Love PR #3863](https://github.com/Chain-Love/chain-love/pull/3863) remains open and unchanged, with no feedback newer than 2026-09-25 01:15 UTC, no acceptance, reward agreement, or payment evidence. No Chronicle claim, assigned issue, or additional open PR by `domcelabas-design` appeared.
+- The only new exact bounty-label result was [relayhop #1205](https://github.com/relayhop/sn-monetization-runtime/issues/1205), another machine-generated mirror of the same Stacker News 5,000-sat “Show Your Build” item; it still lacks a direct primary-source claim path and a bounded software deliverable.
+- Investigated [Kentucky Open Science #10](https://github.com/Kentucky-Open-Science/kentucky-open-science.github.io/issues/10), a clear, unclaimed, AI-permitted accessibility task. The primary issue explicitly states **“Bounty: none”** and the repository describes its board as volunteer work for points, so it is not an eligible paid task despite “bounty board” terminology. No claim or code was started.
+- New Omi bounty-proposal hits (#19310, #19312 and neighbors) describe already-prepared contributor changes with proposed $25 payouts, not open assignments. BountyScout mirrors and the known OmniBlocks fake bounty were ignored.
+- No eligible funded task, submitted/accepted PR, or payment occurred. Confirmed received amount remains **0**.
+- Next: monitor #3863 and new primary-source tasks that explicitly promise cash/stablecoin compensation rather than points, historical prize pools, or aggregator-inferred amounts.
