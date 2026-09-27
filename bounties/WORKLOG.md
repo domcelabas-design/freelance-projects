@@ -1237,3 +1237,11 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - No eligible funded task, submitted/accepted PR, or payment occurred. Confirmed received amount remains **0**.
 - Next: monitor #3863 and newly created primary-source fixed-cash tasks; verify explicit amount, assignment, AI policy, and absence of an existing implementation before coding.
 
+
+
+## Recheck 2026-09-27 19:08 UTC
+
+- [Chain.Love PR #3863](https://github.com/Chain-Love/chain-love/pull/3863) remains open and unchanged since the 2026-09-25 COMMENT review; no new comments, review requests, approval, merge, reward agreement, or payout evidence. The existing eight-test result and unavailable mandatory link-check gate remain the latest facts; no duplicate comment or blocked write was attempted.
+- Fresh GitHub searches since 18:00 UTC found [Omi #19478](https://github.com/BasedHardware/omi/issues/19478), which is only a $50 USDC proposal paired with the author's already-submitted PR #19477, and [SN radar #1209](https://github.com/relayhop/sn-monetization-runtime/issues/1209), a stock-price contest rather than programming work. Aggregator entries without confirmed funding were not treated as offers.
+- Verified [Kentucky Open Science #8](https://github.com/Kentucky-Open-Science/kentucky-open-science.github.io/issues/8) and [#10](https://github.com/Kentucky-Open-Science/kentucky-open-science.github.io/issues/10) against the project's [task-board protocol](https://github.com/Kentucky-Open-Science/kentucky-open-science.github.io/blob/main/docs/KOS-TASK-BOARD.md): both are locally testable, AI-permitted and currently claimable, but completion earns leaderboard points only (10 points each), not cash. Rejected for this paid-work goal; no `/claim`, code, or PR.
+- No implementation or test run was justified this pass. Confirmed funds received remain **0**. Next: monitor #3863 for actionable review and continue screening newly posted first-party tasks for explicit funded cash terms, AI eligibility, low competition, and local acceptance tests before claiming or coding.
