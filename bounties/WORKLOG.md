@@ -1450,3 +1450,15 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - Tests/code: none; no safe and sufficiently funded candidate survived verification.
 - Actual payment status: **0 received**.
 - Next step: continue monitoring #3863 and new primary-source issues; exclude Tent-of-Trials-derived repositories requiring diagnostic artifact upload or undefined `LT` rewards unless the payment and safety conditions materially change.
+
+
+## Recheck 2026-09-29 18:15 UTC
+
+- Existing submission first: [Chain-Love/chain-love#3863](https://github.com/Chain-Love/chain-love/pull/3863) remains open, unmerged, mergeable, and unchanged at `a3e5b351f5a404d6b8b8d8089a05f7f32242a501`. No new review comment or actionable request appeared after 2026-09-25.
+- Account queue: no open issue is assigned to `domcelabas-design`; #3863 remains the only open authored PR.
+- New candidate screened and rejected: [auscaster/frantic-board#277](https://github.com/auscaster/frantic-board/issues/277) is a mirror for an external Frantic promotion, not a bounded programming defect. It promises “$10 back when it clears” for a first bounty, declares Frantic the source of truth, links the claim off GitHub, and has 120 comments documenting repeated claim/expiry cycles plus public wallet-address submissions. The reimbursement/bonus structure, external claim, wallet requirement, and very high competition conflict with the no-spend/no-wallet constraints and offer no repository acceptance criteria. No claim or payment data was submitted.
+- [SPLURT-Station/S.P.L.U.R.T-tg#1261](https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1261) repeats the already-screened Discord-only pattern: public GitHub text provides neither a reward amount nor complete requirements/payment terms. It was not reopened through private contact.
+- Other delta results after 16:45 UTC were internal product “paid/reward” terminology, already-implemented Omi proposals, mirrors, or previously rejected high-competition candidates. No eligible primary-source task survived the amount, availability, competition, AI-policy, payment-route, and local-verification checks.
+- Tests/code: none; no safe, sufficiently specified paid implementation was available.
+- Actual payment status: **0 received**.
+- Next step: continue monitoring #3863 and newly created primary-source issues; require an explicit fixed amount, public payout terms, no wallet/deposit requirement, low competition, AI-compatible contribution rules, and locally runnable acceptance tests before claiming or coding.
