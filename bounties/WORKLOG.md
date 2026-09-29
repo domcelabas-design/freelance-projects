@@ -1474,3 +1474,16 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - Tests/code: none; the only technically attractive fresh issue lacked any public reward commitment.
 - Actual payment status: **0 received**.
 - Next step: continue monitoring #3863 and fresh primary-source issues; treat body-only `bounty` keywords as unverified until a public fixed amount, payer/payment route, assignment eligibility, AI rules, and acceptance process are documented.
+
+
+## Recheck 2026-09-29 20:16 UTC
+
+- Existing submission first: [Chain-Love/chain-love#3863](https://github.com/Chain-Love/chain-love/pull/3863) remains open, unmerged, mergeable, and unchanged at `a3e5b351f5a404d6b8b8d8089a05f7f32242a501`. No comment, review, thread, approval, reward agreement, or payment evidence appeared after the 2026-09-25 COMMENT review.
+- Account queue: no open issue is assigned to `domcelabas-design`; #3863 remains the only open authored PR.
+- New funded issues screened: [Grainlify #34](https://github.com/Grainlify/grainlify-bounty-agent/issues/34), [#35](https://github.com/Grainlify/grainlify-bounty-agent/issues/35), and [#36](https://github.com/Grainlify/grainlify-bounty-agent/issues/36). Each has explicit acceptance criteria, no comments/assignee/PR when checked, a six-hour application window, weighted draw, maintainer merge/approval, and a stated **1 USDC** payout on Solana mainnet. They are not first-come-first-served and explicitly reject PRs opened before assignment.
+- Payment/eligibility blocker: all three require applying through Grainlify and receiving payment to a linked Solana wallet. The repository README says wallet linking uses a signed comment and the payout signer sends Solana USDC. This conflicts with the standing no-wallet/no-new-account constraint and is not PayPal. No application, wallet link, comment, branch, or PR was created. Reconsider only if a permitted non-wallet payout route is published.
+- [orphic-inc/stellar-api#771](https://github.com/orphic-inc/stellar-api/issues/771) was checked because search indexed its request “bounty” terminology and dollar text. It is a security hardening tracking issue with detailed agent instructions, but it advertises no contributor reward or payment terms; “bounty” refers to the application's own request feature. No paid work was inferred.
+- The remaining fresh results were body-only pseudo-labels in the already screened Alchemy repository, implemented Omi bounty proposals, Stellar Wave point tasks requiring application/assignment, product-domain uses of “bounty,” or crawler mirrors.
+- Tests/code: none; every new funded task required a prohibited wallet/application route, and the other technically valid issues lacked a public cash reward.
+- Actual payment status: **0 received**.
+- Next step: continue monitoring #3863 and newly created primary-source issues; prioritize an explicit cash/PayPal/GitHub Sponsors payout, no wallet/deposit, public AI rules, no claimant/PR, and locally runnable acceptance tests.
