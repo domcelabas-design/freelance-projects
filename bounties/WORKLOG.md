@@ -1462,3 +1462,15 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - Tests/code: none; no safe, sufficiently specified paid implementation was available.
 - Actual payment status: **0 received**.
 - Next step: continue monitoring #3863 and newly created primary-source issues; require an explicit fixed amount, public payout terms, no wallet/deposit requirement, low competition, AI-compatible contribution rules, and locally runnable acceptance tests before claiming or coding.
+
+
+## Recheck 2026-09-29 18:46 UTC
+
+- Existing submission first: [Chain-Love/chain-love#3863](https://github.com/Chain-Love/chain-love/pull/3863) remains open, unmerged, mergeable, and unchanged at `a3e5b351f5a404d6b8b8d8089a05f7f32242a501`. The latest review is still the 2026-09-25 COMMENT; no new thread, requested revision, approval, reward agreement, or payment evidence appeared.
+- Account queue: no open issue is assigned to `domcelabas-design`; #3863 remains the only open authored PR.
+- New primary-source candidate screened and rejected: [mathis-group/Alchemy-Dashboard#35](https://github.com/mathis-group/Alchemy-Dashboard/issues/35) is a clear, small, locally testable data-integrity fix with no comments, assignee, or competing PR when checked. However, `bounty` appears only as manually written text inside the issue body—the issue has no actual labels—and the repository publishes no amount, payer, payment method, deadline, assignment rule, reward policy, `CONTRIBUTING.md`, or AI policy. Nearby #32–#34 use the same body convention. No paid eligibility can be established, so no speculative implementation or claim was created.
+- [xentac/FFScouter#8](https://github.com/xentac/FFScouter/issues/8) was also checked because search indexed “Bounty Board.” The parent [#7](https://github.com/xentac/FFScouter/issues/7) confirms that this is the name of an in-product feature and a ready-for-agent slice, not a paid bounty. It advertises no reward or payout terms; no code was started.
+- [OphirPay/OphirPay#787](https://github.com/OphirPay/OphirPay/issues/787) is now exclusively assigned to another contributor through Stellar Wave, due 2026-09-30, after numerous applications and an earlier competing PR reference. It is unavailable and was not duplicated. A resurfaced $50 `bounty-plaza` mirror points to the previously rejected solved `aioa-playground#1` and has several claims/PRs, so it was not reopened.
+- Tests/code: none; the only technically attractive fresh issue lacked any public reward commitment.
+- Actual payment status: **0 received**.
+- Next step: continue monitoring #3863 and fresh primary-source issues; treat body-only `bounty` keywords as unverified until a public fixed amount, payer/payment route, assignment eligibility, AI rules, and acceptance process are documented.
