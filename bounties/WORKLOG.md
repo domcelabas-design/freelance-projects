@@ -1487,3 +1487,15 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - Tests/code: none; every new funded task required a prohibited wallet/application route, and the other technically valid issues lacked a public cash reward.
 - Actual payment status: **0 received**.
 - Next step: continue monitoring #3863 and newly created primary-source issues; prioritize an explicit cash/PayPal/GitHub Sponsors payout, no wallet/deposit, public AI rules, no claimant/PR, and locally runnable acceptance tests.
+
+
+## Recheck 2026-09-29 20:57 UTC
+
+- Existing submission first: [Chain-Love/chain-love#3863](https://github.com/Chain-Love/chain-love/pull/3863) remains open, unmerged, mergeable, and unchanged at `a3e5b351f5a404d6b8b8d8089a05f7f32242a501`. The latest activity remains the 2026-09-25 COMMENT review; no new comment, thread, requested revision, approval, reward agreement, or payment evidence appeared.
+- Account queue: no open issue is assigned to `domcelabas-design`; #3863 remains the only open authored PR.
+- New explicit bounty screened and rejected: [tenstorrent/tt-metal#58495](https://github.com/tenstorrent/tt-metal/issues/58495), opened 2026-09-29, advertises **$750** for fixing fused scale-mask softmax tile-padding leakage at non-32 widths. The maintainer has already reviewed and exclusively assigned it to `singhharsh1708`. No matching PR was found when checked, but the assignment controls availability.
+- Eligibility and verification blockers: acceptance requires regression coverage on supported Wormhole and Blackhole paths or an applicable simulator. Tenstorrent's current CONTRIBUTING rules explicitly prohibit automation/AI agents from claiming or requesting assignment to bug-bounty issues and permit only offline AI assistance under a human contributor's responsibility. Therefore no claim, assignment request, comment, branch, code, or PR was created.
+- Other fresh results were proposed Omi bounties with existing implementations, submissions rather than open work, product-domain uses of “bounty,” or issues without an explicit contributor reward. Previously rejected candidates were not reopened without changed facts.
+- Tests/code: none; the only newly explicit reward was unavailable and policy/hardware-blocked.
+- Actual payment status: **0 received**.
+- Next step: continue monitoring #3863 and newly created primary-source offers; prioritize an explicit PayPal/cash/GitHub Sponsors route, no wallet/deposit, public AI-compatible rules, no assignee or competing delivery, and locally runnable acceptance tests.
