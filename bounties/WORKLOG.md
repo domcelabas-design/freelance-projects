@@ -1437,3 +1437,16 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - Tests/code: none; no permitted, adequately funded task remained after verification.
 - Actual payment status: **0 received**.
 - Next step: continue monitoring #3863 and fresh primary-source issues; reject SecureBanana #743 children unless the exact child is unclaimed, the per-child amount/payment terms are explicitly documented, and participation does not require promotional actions or duplicate issue creation.
+
+
+## Recheck 2026-09-29 16:45 UTC
+
+- Existing submission first: [Chain-Love/chain-love#3863](https://github.com/Chain-Love/chain-love/pull/3863) remains open, unmerged, mergeable, and unchanged at `a3e5b351f5a404d6b8b8d8089a05f7f32242a501`; no new review comment or actionable request appeared after 2026-09-25.
+- Account queue: no open issue is assigned to `domcelabas-design`; #3863 remains the only open authored PR.
+- New candidate screened and rejected: [weilixiong/zeroeye#1](https://github.com/weilixiong/zeroeye/issues/1) advertises “$30 (LT)” for a small PromQL memory-ratio fix. The issue never defines `LT`, payout currency/method, payer, acceptance authority, deadline, or payment timing. It is a renamed/fork-like “Tent of Trials” repository whose README requires committing generated encrypted `.logd` build diagnostics and matching metadata containing a decrypt password.
+- Competition/evidence: issue #1 already has nine comments and at least three open implementations—[PR #2](https://github.com/weilixiong/zeroeye/pull/2), [PR #23](https://github.com/weilixiong/zeroeye/pull/23), and [PR #32](https://github.com/weilixiong/zeroeye/pull/32)—plus additional claims/submissions. A fourth autonomous submission reports the required diagnostic binary was unavailable. The code defect is real, but another duplicate has negligible payment probability and the diagnostic-upload requirement conflicts with the standing safety constraint.
+- No clone, build, diagnostic program, claim, comment, or PR was created. Primary checks covered the issue, all comments, three competing PR states, README, PR template, and affected source file. No root `CONTRIBUTING.md` or `AGENTS.md` was present at the checked paths.
+- Other delta results after 15:48 UTC were internal product “paid/reward” terminology, already-implemented Omi proposals, crawler alerts, RTC/wallet offers, or previously rejected high-competition bounties.
+- Tests/code: none; no safe and sufficiently funded candidate survived verification.
+- Actual payment status: **0 received**.
+- Next step: continue monitoring #3863 and new primary-source issues; exclude Tent-of-Trials-derived repositories requiring diagnostic artifact upload or undefined `LT` rewards unless the payment and safety conditions materially change.
