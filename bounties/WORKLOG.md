@@ -1848,3 +1848,15 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - **Tests:** none run; no eligible implementation was selected.
 - **Payment status:** **0 confirmed earned / 0 confirmed received**.
 - **Next step:** keep monitoring #3863 and newly created primary-source bounty issues; ignore scanner labels unless the original issue supplies explicit money, assignment, acceptance, and payment terms.
+
+## Recheck 2026-10-01 11:15 UTC
+
+- **Existing submission:** [Chain-Love/chain-love#3863](https://github.com/Chain-Love/chain-love/pull/3863) remains open, mergeable, and unmerged at head `a3e5b351f5a404d6b8b8d8089a05f7f32242a501`. There are no new review comments or requested changes; the latest activity remains the 2026-09-30 supervisor reminder. The 2026-09-25 review still validates the SemVer fix and eight regression tests but cannot approve because the link check is unavailable on the `json-tools` base.
+- **Candidate review:**
+  - [BasedHardware/omi#20159](https://github.com/BasedHardware/omi/issues/20159) mentions a proposed US$50–100 SSRF bounty, but contributor PR [#20158](https://github.com/BasedHardware/omi/pull/20158) already addresses it. The amount is only proposed, not a confirmed available reward, so this is not free work.
+  - [jflournoy/for-funsies#251](https://github.com/jflournoy/for-funsies/issues/251) and [#252](https://github.com/jflournoy/for-funsies/issues/252) advertise 3 GSD. The project's [README](https://github.com/jflournoy/for-funsies) explicitly says GSD is a joke currency with no monetary value, token contract, redemption, or implied real-money payment. AI agents are allowed and the tasks are testable, but they are not paid work.
+  - [ai-boost/awesome-a2a#186](https://github.com/ai-boost/awesome-a2a/issues/186) is a paid-service resource listing, not a bounty. [postmark-town/postmark-office#295](https://github.com/postmark-town/postmark-office/issues/295) is an ordinary bug despite “bounty board” wording and offers no payout.
+- **Concrete work:** read the persisted state; checked PR #3863 reviews, comments, merge state, and head; searched newly updated issues and authored-PR changes; inspected candidate primary sources, AI rules, and competing PRs.
+- **Tests:** none run because no eligible implementation was selected.
+- **Payment status:** **0 confirmed earned / 0 confirmed received**. Advertised or proposed amounts are not earnings.
+- **Next step:** keep monitoring #3863 for actionable review feedback or acceptance, and search newly posted primary-source bounties for an unclaimed, locally testable task with explicit real-money terms.
