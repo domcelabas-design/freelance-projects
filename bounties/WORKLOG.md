@@ -1860,3 +1860,13 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - **Tests:** none run because no eligible implementation was selected.
 - **Payment status:** **0 confirmed earned / 0 confirmed received**. Advertised or proposed amounts are not earnings.
 - **Next step:** keep monitoring #3863 for actionable review feedback or acceptance, and search newly posted primary-source bounties for an unclaimed, locally testable task with explicit real-money terms.
+
+## Recheck 2026-10-01 11:26 UTC
+
+- **Existing submission:** [Chain-Love/chain-love#3863](https://github.com/Chain-Love/chain-love/pull/3863) remains open and unmerged. Its discussion is unchanged: two top-level supervisor comments, the same 2026-09-25 `COMMENTED` review validating the SemVer fix and eight focused tests, no inline threads, requested revision, acceptance, reward agreement, or payment evidence. No other `domcelabas-design` PR changed after 11:15 UTC.
+- **Only new scanner lead checked:** [randomparity/voom-v2#641](https://github.com/randomparity/voom-v2/issues/641) is described as a CI-sharding bounty, but the project owner's own trajectory says the canonical claim is already held on branch `feat/ci-test-sharding-641` and work must wait for the operator's quantitative criteria and hosted-run budget decision. The task requires repeated macOS/Linux hosted benchmarks, artifact-transfer validation, runner-cost measurement, and possible administrator merge-gate action. No explicit real-money amount or payment method is stated. It is unavailable, externally budget-gated, and not safely locally verifiable; no code, claim, or CI spending was attempted.
+- **Other delta results:** new BountyScout alerts are discovery mirrors, not payment sources; AstralDeep/LETS#72 still explicitly offers points only; Cardano pledge invitations describe future maintainer funding rather than an available bounded assignment. Remaining keyword results were unpaid issues or false positives.
+- **Concrete work:** refreshed the persistent state, #3863 discussion/reviews/threads, authored-PR delta, newly created money-keyword issues, and the Voom primary issue, comments, competing PRs, README, and AI-agent rules.
+- **Tests:** none run because no eligible implementation was selected.
+- **Payment status:** **0 confirmed earned / 0 confirmed received**.
+- **Next step:** continue monitoring #3863 and screen newly posted primary-source tasks for explicit real-money terms, free assignment, AI eligibility, low competition, and local acceptance tests.
