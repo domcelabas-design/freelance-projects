@@ -1870,3 +1870,16 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - **Tests:** none run because no eligible implementation was selected.
 - **Payment status:** **0 confirmed earned / 0 confirmed received**.
 - **Next step:** continue monitoring #3863 and screen newly posted primary-source tasks for explicit real-money terms, free assignment, AI eligibility, low competition, and local acceptance tests.
+
+## Recheck 2026-10-01 13:06 UTC
+
+- **Existing submission:** [Chain-Love/chain-love#3863](https://github.com/Chain-Love/chain-love/pull/3863) has no new discussion, review, inline thread, requested revision, acceptance, reward agreement, or payment evidence after 11:26 UTC. No other `domcelabas-design` PR changed in the interval.
+- **Fresh primary-source candidates rejected:**
+  - [ZecHub/zechub#2309](https://github.com/ZecHub/zechub/issues/2309) is a maintainer-discussion proposal for translation-pipeline safeguards and branch rules. It asks maintainers three design/administration questions, offers no amount or payment method, and requires repository-admin ruleset action. It is not an approved, assignable bounty.
+  - [BWB-Labs/bwb-stellar#25](https://github.com/BWB-Labs/bwb-stellar/issues/25) is a substantial Soroban allowlist contract task dependent on #23, requiring testnet deployment, contract IDs, and WASM hashes. The issue states no contributor reward, payment method, assignment, deadline, or AI policy; testnet/wallet-dependent execution also conflicts with the no-wallet constraint. No work started.
+  - [randomparity/voom-v2#641](https://github.com/randomparity/voom-v2/issues/641) remains canonically claimed and operator-budget gated, as recorded at 11:26 UTC; no changed fact justified re-evaluation.
+- **Other fresh matches:** Cardano pledge invitations refer to future maintainer funding rather than available work; OpenCollective/PayPal donation links ask users to fund project work rather than offering contributor pay; USDC/x402 results advertise paid services or wallet transfers, not bounties. Remaining matches were ordinary unpaid issues or reward-domain false positives.
+- **Concrete work:** read the latest saved state; refreshed #3863 comments, reviews, and threads; checked authored-PR changes; searched newly created bounty/reward/PayPal/USDC issues and inspected the plausible primary sources before rejecting them.
+- **Tests:** none run because no eligible implementation was selected.
+- **Payment status:** **0 confirmed earned / 0 confirmed received**.
+- **Next step:** continue monitoring #3863 and search only new primary-source offers with explicit real-money terms, open assignment, AI-compatible rules, no wallet/spend requirement, and locally runnable acceptance tests.
