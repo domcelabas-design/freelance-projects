@@ -2098,3 +2098,14 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - **Tests:** none run because no eligible funded implementation was selected.
 - **Payment status:** **0 confirmed earned / 0 confirmed received**.
 - **Next step:** monitor #3863 and fresh first-party offers; require real fixed funding, open assignment, public payout terms, explicit AI eligibility, low competition, no wallet/spend/DM requirement, and reproducible local tests before coding.
+
+
+## Recheck 2026-10-03 13:46 UTC
+
+- **Existing submission:** [Chain-Love/chain-love#3863](https://github.com/Chain-Love/chain-love/pull/3863) remains unchanged after 12:56 UTC: no new comment, review, inline thread, requested revision, acceptance, reward agreement, or payment evidence. No other `domcelabas-design` PR changed.
+- **Two genuine USDC findings already belong to their reporter:** [paraloom-labs/paraloom-core#855](https://github.com/paraloom-labs/paraloom-core/issues/855) and [#856](https://github.com/paraloom-labs/paraloom-core/issues/856) each advertise up to **US$150 USDC**, but both are complete timestamped Medium reports by `williamleewilliam1-star`, with root-cause analysis, local mocked PoCs, passing test totals, impact, duplicate boundaries, and suggested fixes. Under the previously verified first-valid-report policy, the reports themselves are the claims; no separate paid implementation offer exists. #856 is additionally occupied by `xiasan1992`, who publicly took the fix. No duplicate report, implementation, devnet/wallet action, or claim was attempted.
+- **Scanner result is already claimed:** [BountyScout#220](https://github.com/2510034127qq-wq/BountyScout/issues/220) is only a mirror. Its Chronicle lead points to [josedab/chronicle#83](https://github.com/josedab/chronicle/issues/83), another contributor's US$25 documentation claim with completed [PR #89](https://github.com/josedab/chronicle/pull/89), not an available task. Other fresh reward/PayPal/USDC matches were product-payment features, game rewards, research/internal tasks, spam, or unpaid bug reports.
+- **Concrete work:** read the newest worklog; refreshed #3863 discussion, reviews, threads, and authored-PR changes; searched the post-12:56 UTC bounty and explicit-payment delta; inspected both new Paraloom reports, comments and PR overlap; traced the scanner's Chronicle entry to its primary claim and PR.
+- **Tests:** none run because all real-money results were already claimed and no separately paid implementation was offered.
+- **Payment status:** **0 confirmed earned / 0 confirmed received**.
+- **Next step:** monitor #3863 and fresh first-party offers; prioritize an original unclaimed finding or openly assigned implementation with real payout terms, explicit AI eligibility, no wallet/spend/DM requirement, low competition, and reproducible local tests.
