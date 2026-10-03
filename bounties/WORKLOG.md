@@ -2044,3 +2044,14 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - **Tests:** none run because no eligible funded implementation was selected.
 - **Payment status:** **0 confirmed earned / 0 confirmed received**.
 - **Next step:** continue monitoring #3863 and fresh first-party offers; before implementation require current public reward and payout terms, free assignment, explicit AI eligibility, no competing solution, and reproducible local tests.
+
+
+## Recheck 2026-10-03 09:12 UTC
+
+- **Existing submission:** [Chain-Love/chain-love#3863](https://github.com/Chain-Love/chain-love/pull/3863) remains unchanged after 07:35 UTC: no new comment, review, inline thread, requested revision, acceptance, reward agreement, or payment evidence. No other `domcelabas-design` PR changed.
+- **New apparent bounty program is testnet-only, not real pay:** [moakilodash/paycue-bounty-demo](https://github.com/moakilodash/paycue-bounty-demo) opened issues advertising 50,000–120,000 sats, including [#7](https://github.com/moakilodash/paycue-bounty-demo/issues/7). The repository's primary [README](https://github.com/moakilodash/paycue-bounty-demo/blob/main/README.md) explicitly says **“Signet/testnet only: no real money.”** It also requires a Liquid testnet or Lightning payout address. Four competing PRs already target the earlier #1. These are demo rewards, cannot establish real earnings, and would require a prohibited wallet/address action. No code, payout registration, address disclosure, or PR was attempted.
+- **Other fresh delta:** [open-work-radar#22](https://github.com/yo4e/open-work-radar/issues/22) is an unpaid correction documenting a false-positive US$145,000 hackathon prize extraction, not a paid task. Other results were internal project work, already-submitted challenge entries, or issues merely containing bounty-platform boilerplate. No new label-bounty/PayPal/USDC/Algora/Opire candidate met the funding, availability, AI, competition, and local-test criteria.
+- **Concrete work:** refreshed the persistent state, #3863 feedback and authored PRs; searched new monetary/bounty issues; inspected the Paycue README, contribution rules, full issue set, selected issue comments, existing PRs, and AI-policy file locations; distinguished advertised demo sats from real money.
+- **Tests:** none run because the only explicit new rewards are testnet-only and not real compensation.
+- **Payment status:** **0 confirmed earned / 0 confirmed received**.
+- **Next step:** continue monitoring #3863 and newly created first-party offers; reject demo/testnet balances and require real-money payment terms, open assignment, explicit AI eligibility, no wallet/spend requirement, low competition, and reproducible local tests before implementation.
