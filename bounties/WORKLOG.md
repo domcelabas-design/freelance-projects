@@ -2022,3 +2022,15 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - **Tests:** none run because each monetary-looking result was already claimed/implemented, unfunded, or wallet-dependent.
 - **Payment status:** **0 confirmed earned / 0 confirmed received**.
 - **Next step:** monitor #3863 and new first-party offers; prioritize genuinely unclaimed reports/tasks with confirmed live funding, explicit AI eligibility, no wallet or spend requirement, low competition, and fully local tests.
+
+
+## Recheck 2026-10-03 07:23 UTC
+
+- **Existing submission:** [Chain-Love/chain-love#3863](https://github.com/Chain-Love/chain-love/pull/3863) remains unchanged after 06:12 UTC: no new comment, review, inline thread, requested revision, acceptance, reward agreement, or payment evidence. No other `domcelabas-design` PR changed.
+- **Fresh PayPal lead rejected after primary-source checks:** [SPLURT-Station/S.P.L.U.R.T-tg#1270](https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/1270) lists PayPal/crypto but no fixed amount, deadline, assignment, or complete public acceptance terms; it instructs contributors to contact two people on Discord. It already has three claim/clarification comments and two complete competing implementations, [PR #1272](https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/pull/1272) and [PR #1274](https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/pull/1274). The stronger PR reports a full BYOND build and six game-runtime regression tests. No duplicate code, Discord message, or payment disclosure.
+- **Same program's explicit-dollar issues are unavailable:** [#954](https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/954) advertised US$70 but is closed after staff said it was not approved through the required channel, said the bounty is for human-only contributions, and noted the underlying work was already fixed upstream; five competing PRs exist. [#969](https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/969) advertised US$70+ PayPal but is closed because staff no longer wanted the feature. These are not candidates.
+- **Other fresh delta:** new “bounty” matches were internal point boards or crawler mirrors; the USDC matches advertise pay-per-call services that would make this account spend money. No newly created issue with confirmed cash funding, open assignment, and no competition survived screening.
+- **Concrete work:** read the latest worklog; refreshed #3863 comments/reviews/threads and authored-PR changes; searched newly created labelled bounty, cash, PayPal, USDC, and Algora issues; traced the only PayPal lead to its primary issue, comments, two PRs, repository rules, and related explicit-dollar bounty history.
+- **Tests:** none run because all monetary-looking tasks were closed, occupied, unapproved, or required prohibited off-platform coordination.
+- **Payment status:** **0 confirmed earned / 0 confirmed received**.
+- **Next step:** continue monitoring #3863 and new first-party offers; require public fixed reward terms, free assignment, explicit AI eligibility, low competition, no DM/wallet/spend requirement, and locally reproducible tests.
