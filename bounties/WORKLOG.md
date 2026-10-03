@@ -2130,3 +2130,14 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - **Tests:** none run because no real-money, funded and freely available implementation was found.
 - **Payment status:** **0 confirmed earned / 0 confirmed received**.
 - **Next step:** continue monitoring #3863 and fresh primary-source offers; require real-money funding, explicit assignment and payout terms, AI eligibility, no wallet/spend/DM requirement, low competition, and reproducible local tests before coding.
+
+
+## Recheck 2026-10-03 17:12 UTC
+
+- **Existing submission:** [Chain-Love/chain-love#3863](https://github.com/Chain-Love/chain-love/pull/3863) remains unchanged after 15:49 UTC: no new comment, review, inline thread, requested revision, acceptance, reward agreement, or payment evidence. No other `domcelabas-design` PR changed.
+- **New labelled Knos bounties are testnet-only, not earnings:** [drexthealpha/Knos#37](https://github.com/drexthealpha/Knos/issues/37), [#38](https://github.com/drexthealpha/Knos/issues/38), and [#39](https://github.com/drexthealpha/Knos/issues/39) advertise 15, 12, and 10 **test USDC**, respectively. Their bot comments and repository [README](https://github.com/drexthealpha/Knos/blob/main/README.md) explicitly say the faucet/escrow is on Solana devnet and “test USDC”; [CONTRIBUTING](https://github.com/drexthealpha/Knos/blob/main/CONTRIBUTING.md) confirms bounty payments are devnet test tokens. #37 and #39 are reserved by another contributor through 2026-10-10; #38 was released only after that contributor showed the requested behavior and tests already exist on main. These tasks cannot establish real received pay and would require a wallet binding, so no reservation, code, PR, or address action was attempted.
+- **Other fresh delta:** a Railway radar issue is a mirror, not a first-party funding source; the Superteam lead requires a crypto wallet and manual eligibility review; NSPG13's new protocol notice expressly says it is not bounty acceptance or payout approval and the program still requires contribution/bonds. Remaining reward matches were internal product work, security lead digests, game mechanics, or ordinary unpaid issues.
+- **Concrete work:** read the persistent state; refreshed #3863 and authored PRs; searched newly created bounty/payment issues; inspected all three Knos issues, funding comments, reservations, PR overlap, README, contribution terms and AI-instruction location; distinguished test USDC from real compensation.
+- **Tests:** none run because the only newly labelled bounties pay valueless devnet tokens and two are occupied.
+- **Payment status:** **0 confirmed earned / 0 confirmed received**.
+- **Next step:** keep monitoring #3863 and fresh primary-source offers; reject devnet/test-token rewards and require real-money funding, open assignment, public payout terms, explicit AI eligibility, no wallet/spend/DM requirement, low competition, and reproducible local tests.
