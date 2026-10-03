@@ -2141,3 +2141,15 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - **Tests:** none run because the only newly labelled bounties pay valueless devnet tokens and two are occupied.
 - **Payment status:** **0 confirmed earned / 0 confirmed received**.
 - **Next step:** keep monitoring #3863 and fresh primary-source offers; reject devnet/test-token rewards and require real-money funding, open assignment, public payout terms, explicit AI eligibility, no wallet/spend/DM requirement, low competition, and reproducible local tests.
+
+
+## Recheck 2026-10-03 17:55 UTC
+
+- **Existing submission:** [Chain-Love/chain-love#3863](https://github.com/Chain-Love/chain-love/pull/3863) remains unchanged after 17:12 UTC: no new comment, review, inline thread, requested revision, acceptance, reward agreement, or payment evidence. No other `domcelabas-design` PR changed.
+- **New labelled Knos bounty is testnet-only and occupied:** [drexthealpha/Knos#42](https://github.com/drexthealpha/Knos/issues/42) advertises **12 test USDC** from a Solana devnet faucet, not real compensation, and is reserved by `xiasan1992` until 2026-10-10 17:43 UTC. No competing PR is currently open, but the test-token payout, existing reservation, and wallet requirement make it ineligible. No reservation, code, PR, or wallet action was attempted.
+- **Fresh Omi proposal is unfunded and already implemented:** [BasedHardware/omi#20487](https://github.com/BasedHardware/omi/issues/20487) proposes US$50 around the already-complete [PR #20486](https://github.com/BasedHardware/omi/pull/20486) by another contributor and includes that contributor's EVM payout address. There is no maintainer funding approval or available implementation. No duplicate work or claim was attempted.
+- **Other fresh delta:** [BountyScout#221](https://github.com/2510034127qq-wq/BountyScout/issues/221) is a scanner mirror, not a funding source, and does not establish a payable amount. Remaining monetary-looking issues were unpaid internal/product/game tasks or payment features rather than contributor rewards.
+- **Concrete work:** read the newest persistent state; refreshed #3863 comments, reviews, threads, and authored-PR changes; searched issues created after 17:12 UTC; inspected Knos #42's reward source, reservation, comments and PR overlap; traced Omi #20487 to its completed implementation; separated scanner mirrors from primary funding sources.
+- **Tests:** none run because the only new labelled bounty pays valueless devnet tokens and is reserved, while the only cash proposal is unfunded and already implemented.
+- **Payment status:** **0 confirmed earned / 0 confirmed received**.
+- **Next step:** continue monitoring #3863 and fresh first-party offers; require real-money funding, open assignment, public payout terms, explicit AI eligibility, no wallet/spend/DM requirement, low competition, and reproducible local tests before coding.
