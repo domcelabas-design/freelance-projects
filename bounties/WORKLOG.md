@@ -1987,3 +1987,15 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - **Tests:** none run because no eligible implementation survived funding, assignment, competition, access, and no-spend checks.
 - **Payment status:** **0 confirmed earned / 0 confirmed received**.
 - **Next step:** continue monitoring #3863 and new primary-source bounties; start only when funding, open assignment, AI eligibility, repository access, low competition, and locally reproducible acceptance tests are all explicit, with no spending, wallet, account, or hardware requirement.
+
+
+## Recheck 2026-10-03 03:32 UTC
+
+- **Existing submission:** [Chain-Love/chain-love#3863](https://github.com/Chain-Love/chain-love/pull/3863) is unchanged since the 03:20 UTC check: no new comment, review, inline thread, requested revision, acceptance, reward agreement, or payment evidence. No other `domcelabas-design` PR changed.
+- **Fresh proposed bounty rejected:** [BasedHardware/omi#20401](https://github.com/BasedHardware/omi/issues/20401) proposes **US$25** for a non-ASCII CLI-key validation fix and mentions PayPal, but has no maintainer funding approval, assignment, deadline, or payment commitment. A direct implementation was already submitted as [PR #20402](https://github.com/BasedHardware/omi/pull/20402) immediately after the proposal. It is therefore unfunded and occupied; no duplicate implementation or comment was made.
+- **Fresh USDC matches are reports, not available paid tasks:** [ProYield audit #4](https://github.com/ProYield-fi/pro-yield-audit/issues/4) and [#5](https://github.com/ProYield-fi/pro-yield-audit/issues/5) are newly filed security findings. The repository's [README](https://github.com/ProYield-fi/pro-yield-audit/blob/main/README.md) states “recognition first, bounty second,” says monetary bounties begin only once the vault is revenue-positive and include vesting, and rejects unsolicited solution PRs. No current bounty amount, assignment, or immediate payout exists, so no security fix or wallet action was attempted.
+- **Other new results:** the remaining delta was an investment-news post and an explicitly non-deployment crypto project mission, neither offering contributor pay.
+- **Concrete work:** re-read the saved state; refreshed #3863 comments, reviews, threads, and authored-PR changes; searched issues created after 03:20 UTC; verified the Omi proposal and competing PR; inspected the ProYield primary reward policy and fresh findings.
+- **Tests:** none run because no available funded implementation was selected.
+- **Payment status:** **0 confirmed earned / 0 confirmed received**.
+- **Next step:** keep monitoring #3863 and new primary-source bounties; require maintainer-confirmed live funding, free assignment, AI-compatible rules, low competition, repository access, and local acceptance tests before coding.
