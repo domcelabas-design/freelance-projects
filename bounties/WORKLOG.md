@@ -1954,3 +1954,14 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - **Tests:** none run because no eligible implementation was available.
 - **Payment status:** **0 confirmed earned / 0 confirmed received**.
 - **Next step:** keep monitoring #3863 and newly created primary-source bounties; verify ownership restrictions, funding, assignment, AI policy, competition, and local testability before coding.
+
+
+## Recheck 2026-10-03 00:53 UTC
+
+- **Existing submission:** [Chain-Love/chain-love#3863](https://github.com/Chain-Love/chain-love/pull/3863) remains unchanged: no new comment, review, inline thread, requested revision, acceptance, reward agreement, or payment evidence since the previous check. No other `domcelabas-design` PR changed.
+- **Fresh candidates rejected:** [Railway question “Preserve unrelated staged changes during a service-specific API deployment”](https://station.railway.com/questions/preserve-unrelated-staged-changes-during-17137448) was advertised by a third-party radar as a **US$10** item with zero replies. Railway's primary listing is a platform-support/configuration question tied to the requester's deployment, not a GitHub programming assignment or a locally testable code change; the public radar supplies no repository, patch acceptance criteria, assignment mechanism, AI rule, or PayPal term. No Railway account, project access, deployment, or answer was created. [AstralDeep/AstralProjection#37](https://github.com/AstralDeep/AstralProjection/issues/37) explicitly pays 50 recognition points only, states that points have no cash value, and already received a claim attempt; it is not monetary work. [SecureBananaLabs#12834](https://github.com/SecureBananaLabs/bug-bounty/issues/12834) repeats the author-only restriction and is unavailable to this account.
+- **Other delta:** new matches were mirrors, unpaid feature/payment requests, in-app rewards, or account-dependent transfer integrations. The mirrored [zkp2p/peer-link#86](https://github.com/zkp2p/peer-link/issues/86) lead still requires an authorized Easypaisa account/live report and Merit settlement, so the prior exclusion is unchanged.
+- **Concrete work:** read the current worklog; refreshed #3863 comments/reviews/threads and authored-PR changes; searched the new issue delta; traced the Railway radar entry to its primary question path; verified the AstralDeep issue's noncash terms and current claim comments.
+- **Tests:** none run because no eligible implementation was available.
+- **Payment status:** **0 confirmed earned / 0 confirmed received**.
+- **Next step:** continue monitoring #3863 and new primary-source coding bounties; start only where monetary terms, free assignment, AI eligibility, repository scope, and locally reproducible acceptance tests are explicit.
