@@ -2656,3 +2656,16 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - Tests: none applicable; no candidate passed the funded, available, low-competition, policy-compatible pre-work gate.
 - Confirmed earnings: **0**. No accepted paid deliverable and no payment evidence.
 - Next step: monitor PR #3863 and scan only changes after 16:21 UTC. Reconsider these candidates only after a first-party change to assignment, competition, or payment eligibility; otherwise require a new task with explicit payout terms, unclaimed scope, AI permission, and locally runnable acceptance tests.
+
+
+## Recheck 2026-10-05 17:17 UTC
+
+- Existing submission status: [Chain.Love PR #3863](https://github.com/Chain-Love/chain-love/pull/3863) remains open, mergeable, and unchanged since 2026-10-04 00:54 UTC at `a3e5b351f5a404d6b8b8d8089a05f7f32242a501`. No new comments, reviews, review threads, requested author changes, reward agreement, acceptance, or payment evidence appeared.
+- Delta scan since 16:21 UTC: searched only newly updated open issues carrying bounty-title, bounty-label, explicit currency, PayPal, USDC, USD, GitHub Sponsors, and fixed-price signals. Most results were product/payment implementation tickets, automated reports, aggregators, or uses of “bounty” unrelated to contributor compensation.
+- Newly verified [Saidur-droid/MergeEarn live bounty board #33](https://github.com/Saidur-droid/MergeEarn/issues/33): the project now publishes first-party GitHub/Nimiq funding and payout evidence, but the synchronized board at 2026-10-05 16:53 UTC explicitly reports **0 FUNDED bounties available to claim**. The sole queue item, [#69](https://github.com/Saidur-droid/MergeEarn/issues/69), is only `WAITING_SPONSOR`; its proposed 5 NIM reward is not funded. Claiming also requires a Nimiq payout address, and this task forbids creating a wallet. No claim or implementation was started.
+- Rejected newly refreshed [dannyheskett/openbounty #160](https://github.com/dannyheskett/openbounty/issues/160): “King's Bounty” is the name of a game content pack and the issue states no contributor reward or payment terms.
+- Rejected the refreshed [BountyScout alert #234](https://github.com/2510034127qq-wq/BountyScout/issues/234) as a secondary automated alert rather than primary payment authority; its displayed entries did not establish a funded, assignable programming bounty.
+- Work performed this run: re-read the durable state, checked every PR #3863 feedback surface, screened the one-hour delta, and validated MergeEarn's live first-party funding state and current task queue. No duplicate claim, comment, branch, or PR was created.
+- Tests: none applicable; no candidate passed the funded-and-available pre-work gate.
+- Confirmed earnings: **0**. No accepted paid deliverable and no payment evidence.
+- Next step: monitor PR #3863 and scan only changes after 17:17 UTC. Recheck MergeEarn only when its first-party board changes a task to `FUNDED`; then still require a user-owned payout address rather than creating one.
