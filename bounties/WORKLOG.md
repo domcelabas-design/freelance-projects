@@ -2479,3 +2479,16 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - **Tests:** none run because no existing submission received a revision request and the only code-shaped bounty lead was explicitly author-only and already implemented many times.
 - **Payment status:** **0 confirmed earned / 0 confirmed received**.
 - **Next step:** continue first-party monitoring and search, prioritizing a uniquely scoped maintainer-approved issue with explicit real-value funding, open eligibility, acceptable AI rules and low duplicate-PR competition.
+
+
+## Recheck 2026-10-05 01:28 UTC
+
+- Existing submission status: rechecked [Chain.Love PR #3863](https://github.com/Chain-Love/chain-love/pull/3863). It remains open and unmerged at head `a3e5b351f5a404d6b8b8d8089a05f7f32242a501`; there are still four discussion items, one older non-approving review, and no review threads or new requested code changes. No payment or reward agreement is recorded.
+- New-candidate scan: reviewed [BountyScout alert #231](https://github.com/2510034127qq-wq/BountyScout/issues/231) against both primary sources.
+  - Rejected [Scottcjn/rustchain-bounties FAQ #509](https://github.com/Scottcjn/rustchain-bounties/issues/509): this is payout documentation, not a programming task. The primary FAQ explicitly contradicts the aggregator's PayPal/USDC/USDT claim: bounties pay only RTC, the token has no off-ramp or guaranteed value, and the displayed USD rate is only an internal accounting unit. Participation would ultimately require a native/hosted RTC wallet, which is outside the allowed payment constraints; comments also contain unresolved questions about balances and proof of receipt. Do not reconsider without a new, primary-source cash/fiat payout policy.
+  - Rejected [Heliobond/contracts #503](https://github.com/Heliobond/contracts/issues/503): it is a contributor's unanswered request for proof of past bounty payments, not a scoped task. Its only comment is an unrelated templated assignment request, and no matching PR for #503 establishes a deliverable or payout.
+- Additional candidate check: rejected [chenzilin100/StellarBladeTrainer-Releases #5](https://github.com/chenzilin100/StellarBladeTrainer-Releases/issues/5). The issue only contains Opire's generic instructions saying a reward *can* be added; no `/reward` funding comment, assignee, source repository, acceptance criteria, or related PR exists. It is therefore an unfunded bug report in a releases-only repository, not a verifiable paid programming task.
+- Work performed this run: primary-source payment terms, comments, repository contribution rules, issue competition, and related PRs were checked. No code was changed because every new lead failed the funded-task or real-value-payment threshold.
+- Tests: none applicable; no candidate reached implementation.
+- Confirmed earnings: **0**. No accepted paid deliverable and no payment evidence.
+- Next step: continue monitoring PR #3863 for maintainer feedback and scan only newly created/updated tasks with an explicit funded reward in a redeemable currency, concrete acceptance criteria, accessible source, and no active competing implementation.
