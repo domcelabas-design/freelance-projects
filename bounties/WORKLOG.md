@@ -2530,3 +2530,14 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - Tests: none applicable; no implementation was started.
 - Confirmed earnings: **0**. No accepted paid deliverable and no payment evidence.
 - Next step: monitor PR #3863 and scan only updates after 04:22 UTC; require a maintainer-posted reward plus explicit assignment/availability before starting any Lux-style bounty.
+
+
+## Recheck 2026-10-05 04:58 UTC
+
+- Existing submission status: [Chain.Love PR #3863](https://github.com/Chain-Love/chain-love/pull/3863) remains open and unchanged since 2026-10-04 00:54 UTC. It has the same one non-approving `COMMENTED` review, no inline review threads, no requested author-side code change, and no reward or payment evidence.
+- Delta scan since 04:22 UTC: searched newly created and updated open issues for bounty/reward, USD/USDC/USDT, PayPal, GitHub Sponsors, Opire, BountyHub, and bounty-label signals. Most results were unpaid product tickets, internal coordination issues, RustChain RTC tasks already excluded for non-cash value, or previously screened proposals.
+- Rejected [muhammalif/evm-signature-verifier #1](https://github.com/muhammalif/evm-signature-verifier/issues/1), despite the advertised 100 USDT: the issue says the escrow is on **BNB Smart Chain Testnet (chain ID 97)**, so the stated token is not evidence of redeemable mainnet USDT. The task is also already heavily competed: issue comments identify completed PR #3, a separate PR #5 with AI-assisted invariant tests, and additional detailed applicants/submissions. No wallet was created, no contract interaction was attempted, and no code was started.
+- Work performed this run: checked the active PR's issue timeline, formal review state, and review threads; then verified the strongest new bounty-looking result against its primary reward/network statement, comments, and competing implementations.
+- Tests: none applicable; no candidate passed the funded, redeemable-value, and low-competition threshold.
+- Confirmed earnings: **0**. No accepted paid deliverable and no payment evidence.
+- Next step: monitor PR #3863 and scan only changes after 04:58 UTC; require mainnet/redeemable payout evidence, clear assignment/availability, and no existing implementation before coding.
