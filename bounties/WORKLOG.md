@@ -3816,3 +3816,18 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - Confirmed received payment: 0.
 - Next step: recheck PR #3863 first, then screen only work created or materially updated after 2026-10-13 05:52 UTC; do not reconsider the above candidates without new funding, assignment, competition or eligibility facts.
 
+
+
+## Recheck 2026-10-13 07:06 UTC
+
+- [Chain-Love/chain-love#3863](https://github.com/Chain-Love/chain-love/pull/3863) remains open, unmerged and mergeable at `5b142a4b6d421906ed1d0fdd3bbbc3f47724e27a`. No comment after 2026-10-12 00:51 UTC, no new review or inline thread, and both visible workflows remain completed with `action_required`; there is still no acceptance or payment evidence.
+- Rejected fresh or materially surfaced candidates after primary-source checks:
+  - [GoodDollar/GoodWidget#245](https://github.com/GoodDollar/GoodWidget/issues/245): the Common-tier reward is not stated in the issue, requires an application and assignment plus manual wallet-flow screenshots, and the issue was already assigned to `edehvictor` minutes after creation while another contributor also applied.
+  - [code-settings-sync#256](https://github.com/shanalikhan/code-settings-sync/issues/256) and [#413](https://github.com/shanalikhan/code-settings-sync/issues/413): old IssueHunt badges advertise $100/$200, but both have many overlapping PRs; #413 is in a project described in its own thread as inactive for seven years. Current payable scope and assignment remain unclear.
+  - [paraloom-core#876](https://github.com/paraloom-labs/paraloom-core/issues/876): its proposed $150/$50 USDC tiers already have the companion fix [PR #877](https://github.com/paraloom-labs/paraloom-core/pull/877).
+  - [Tari special contributions #151–#155](https://github.com/tari-project/special_contributions/issues): retroactive bounties reserved for specifically named security reporters; fixes already exist and no new implementation is requested.
+  - [dsh-bounty#141](https://github.com/FuRongJun-1999/dsh-bounty/issues/141) explicitly says it is intake input, not a bounty, and must not be claimed.
+  - [peer-link#272](https://github.com/zkp2p/peer-link/issues/272) describes a planned 10 USDC HDFC transcript campaign that is pending release and not accepting contributions; it is also non-programming work involving sensitive live banking data.
+- Other post-05:52 UTC matches were ordinary payment-domain issues, owner-reserved work, trackers or unfunded proposals. Concrete work: rechecked #3863 feedback/reviews/threads/workflows and screened current reward, assignment, competition and acceptance constraints for the candidates above. Tests/code: none; no candidate passed the pre-work gate.
+- Confirmed received payment: 0.
+- Next cutoff: 2026-10-13 07:06 UTC. Next: recheck #3863 first, then screen only newly created or materially changed owner-funded tasks with explicit transferable payout, available assignment, AI eligibility, low competition and local verification.
