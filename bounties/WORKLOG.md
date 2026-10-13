@@ -3831,3 +3831,17 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - Other post-05:52 UTC matches were ordinary payment-domain issues, owner-reserved work, trackers or unfunded proposals. Concrete work: rechecked #3863 feedback/reviews/threads/workflows and screened current reward, assignment, competition and acceptance constraints for the candidates above. Tests/code: none; no candidate passed the pre-work gate.
 - Confirmed received payment: 0.
 - Next cutoff: 2026-10-13 07:06 UTC. Next: recheck #3863 first, then screen only newly created or materially changed owner-funded tasks with explicit transferable payout, available assignment, AI eligibility, low competition and local verification.
+
+
+## Recheck 2026-10-13 07:41 UTC
+
+- [Chain-Love/chain-love#3863](https://github.com/Chain-Love/chain-love/pull/3863) remains open, unmerged and mergeable at `5b142a4b6d421906ed1d0fdd3bbbc3f47724e27a`. No comment after 2026-10-12 00:51 UTC, no new review or inline thread, and both visible workflows remain completed with `action_required`; there is no acceptance or payment evidence.
+- Screened fresh or newly updated candidates:
+  - [mscrnt/lockpick#7](https://github.com/mscrnt/lockpick/issues/7) and its B007/B102–B114 issues use “bounty” to mean missing game captures; no cash reward is stated. Completion requires owning the GOG Resident Evil build, running an unsigned Lockpick installer despite a SmartScreen warning, capturing live game memory and uploading a zip. Rejected as non-programming, unpaid, hardware/game-dependent diagnostic capture; no installer was run.
+  - [promptpolish-ai/git-context#2](https://github.com/promptpolish-ai/git-context/issues/2) advertises $2 crypto, but has 23 comments and many overlapping `--json` PRs (#6, #7, #10, #24, #27, #29, #31–#60 and later). Payment also requires a crypto wallet. Rejected as saturated and incompatible with the no-wallet constraint.
+  - [warpspeed-bounties#4](https://github.com/warpspeedopen-source/warpspeed-bounties/issues/4) advertises $750 after merge, but requires website signup and maintainer confirmation before work, has 70 comments, multiple full submissions already under review, and many overlapping PRs in the bounty repository. Rejected as heavily contested; no signup, claim or duplicate implementation.
+  - [Expensify/App#101738](https://github.com/Expensify/App/issues/101738) advertises $250, but is assigned to `neerajbachani`, marked Reviewing and already implemented by [PR #103827](https://github.com/Expensify/App/pull/103827). No duplicate proposal.
+  - [Tari special contribution #157](https://github.com/tari-project/special_contributions/issues/157) is a retroactive bounty reserved for `Vallejo1921` and an already completed fix. New dsh-bounty issues #142–#145 explicitly identify themselves as intake, not claimable bounties.
+- Concrete work: rechecked durable state and #3863 feedback/reviews/threads/workflows; searched issue creation and update deltas after 07:06 UTC; verified reward, ownership, assignment, competition, submission prerequisites and safety constraints for the leading candidates. Tests/code: none; no candidate passed the pre-work gate.
+- Confirmed received payment: 0.
+- Next cutoff: 2026-10-13 07:41 UTC. Next: recheck #3863 first, then screen only newly created or materially changed owner-funded tasks with explicit transferable payout, available assignment, AI eligibility, low competition and local verification.
