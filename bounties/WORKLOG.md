@@ -3871,3 +3871,15 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - Concrete work: rechecked durable state and #3863 comments/reviews/threads/workflows; searched fresh bounty/USD/USDC/PayPal/reward issues; verified Cognitive-OS reward wording, repository rules, competition and unanswered funding question. Tests/code: none; no candidate passed the pre-work gate.
 - Confirmed received payment: 0.
 - Next cutoff: 2026-10-13 09:44 UTC. Next: recheck #3863 first, then screen only newly created or materially changed owner-funded tasks with explicit transferable payout, available assignment, AI eligibility, low competition and local verification.
+
+
+## Recheck 2026-10-13 11:13 UTC
+
+- [Chain-Love/chain-love#3863](https://github.com/Chain-Love/chain-love/pull/3863) remains the only open PR found for `author:domcelabas-design`: open, unmerged and mergeable at `5b142a4b6d421906ed1d0fdd3bbbc3f47724e27a`. No comment after 2026-10-12 00:51 UTC, no new review or inline thread, and both visible workflows remain completed with `action_required`; there is no acceptance or payment evidence.
+- Screened the 09:44–11:13 UTC delta:
+  - New PeerLink campaigns [#275–#280](https://github.com/zkp2p/peer-link/issues) advertise $10 USDC per accepted banking transcript, but every issue explicitly says the campaign is planned for a future release and is not accepting transcripts. They are non-programming tasks involving sensitive live banking data, a Base wallet and a future shared budget, so no capture, account access or wallet action was attempted.
+  - [Cognitive-OS#5](https://github.com/aLexzzz430/Cognitive-OS/issues/5) was updated by more claims, not by a funding or availability confirmation. It still has 89 comments and 48 competing PRs, including recent submissions through #59; payment remains private after discretionary acceptance, while the public question asking whether the $3,000 is funded and still open has no maintainer answer. The rejection remains unchanged.
+  - [HCTDIP/corps-jobs#83](https://github.com/HCTDIP/corps-jobs/issues/83) is an automated Railway opportunity radar, not a primary-source funded task; its referenced items are support/configuration reports without owner-posted contributor reward terms.
+- Other fresh Algora/Opire/paid-on-merge/GitHub-Sponsors and bounty/USD/USDC/PayPal/reward searches returned ordinary product bugs, internal work, grant applications, trackers, or issues where “bounty” and “reward” describe product mechanics rather than contributor pay. Concrete work: rechecked durable state and #3863 comments/reviews/threads/workflows; searched the full delta and targeted payout platforms; verified current reward wording, availability and competition for the leading candidates. Tests/code: none; no candidate passed the pre-work gate.
+- Confirmed received payment: 0.
+- Next cutoff: 2026-10-13 11:13 UTC. Next: recheck #3863 first, then screen only newly created or materially changed owner-funded tasks with explicit transferable payout, available assignment, AI eligibility, low competition and local verification.
