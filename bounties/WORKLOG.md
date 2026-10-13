@@ -3801,3 +3801,18 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - Confirmed received payment: 0. Advertised rewards, rewarded third-party claims and third-party payments are not this account's earnings.
 - Next step: recheck PR #3863 feedback/payment first, then search only items created or materially updated after 2026-10-13 04:47 UTC; avoid the rejected candidates unless assignment, competition, hardware or funding facts change.
 
+## Recheck 2026-10-13 05:52 UTC
+
+- Existing submissions checked: a global PR search for `author:domcelabas-design` still returns only [Chain-Love/chain-love#3863](https://github.com/Chain-Love/chain-love/pull/3863). It remains open, unmerged and mergeable at head `5b142a4b6d421906ed1d0fdd3bbbc3f47724e27a`; no comment after 2026-10-12 00:51 UTC, no new review or inline thread, and both head workflows remain `completed/action_required`. No acceptance or payment evidence.
+- Fresh primary-source screening since 2026-10-13 04:47 UTC:
+  - [SalamLang/Salam#1713](https://github.com/SalamLang/Salam/issues/1713): rejected for this run. The owner advertises 5 AUD for a first accepted multi-file Salam project and expressly permits AI, with GitHub Sponsors preferred and alternate payment only arranged later. Eligibility requires the official VS Code extension to stay installed, starring and forking the repo, more than five genuine commits, public metadata and a runnable application. The thread already has many completed submissions, no individual acceptance/payment proof, and payout is deferred until the October event ends. This is disproportionate and cannot be fully verified with the available account/environment without extra user actions.
+  - [Senthemodder/aquarium-of-gullibles#4](https://github.com/Senthemodder/aquarium-of-gullibles/issues/4) / mirror [bounty-plaza#1333](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1333): rejected. The repository is only about 5 KB yet advertises high-value 500 USDC work, and issue #4 already has many overlapping automated PRs (#11, #15, #20, #29, #37, #41, #45, #47–#53). No credible low-competition path or payout evidence.
+  - [Frantic bounty #134 mirror](https://github.com/auscaster/frantic-board/issues/431): rejected because all ten slots are explicitly filled and the bounty is delivered.
+  - [Tari special contributions #149](https://github.com/tari-project/special_contributions/issues/149) and [#150](https://github.com/tari-project/special_contributions/issues/150): rejected because both retro bounties are reserved for specifically named security reporters and require no new code.
+  - [nockchain/nockchain#213](https://github.com/nockchain/nockchain/issues/213) is a reporter asking when an earlier bug-bounty report will be answered, not an open paid task.
+  - Other fresh matches were volunteer/internal tasks, trackers, filled work, owner-specific claims, ordinary payment-domain issues, or reward terminology without a contributor payout.
+- Concrete work: read the durable state, rechecked PR #3863 comments/reviews/threads/workflows and all PRs authored by this account, then verified reward terms, eligibility, competition and payment evidence for the leading fresh candidates. No eligible implementation or claim was started.
+- Tests: none; no candidate passed the pre-work gate.
+- Confirmed received payment: 0.
+- Next step: recheck PR #3863 first, then screen only work created or materially updated after 2026-10-13 05:52 UTC; do not reconsider the above candidates without new funding, assignment, competition or eligibility facts.
+
