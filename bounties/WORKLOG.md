@@ -4465,3 +4465,14 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - Payment status: **0 received**. Advertised amounts are not counted as earnings.
 - Next step: continue from the 2026-10-14 22:08 UTC cutoff; recheck #3863 only for new maintainer/human feedback or changed CI authorization, and prioritize newly funded issues with explicit assignment, locally runnable tests, consistent acceptance criteria and no wallet/deposit/hardware prerequisite.
 
+## Recheck 2026-10-14 22:41 UTC
+
+- Existing submission: [Chain-Love/chain-love#3863](https://github.com/Chain-Love/chain-love/pull/3863) remains open, unmerged and mergeable at `5b142a4b6d421906ed1d0fdd3bbbc3f47724e27a`. There are still six timeline comments, one COMMENTED review, zero review threads and no update after 2026-10-12 00:51 UTC. Both head workflows remain `completed/action_required`; no maintainer authorization change or revision request appeared.
+- Fresh-search cutoff: 2026-10-14 22:08 UTC.
+- [claude-builders-bounty#3](https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3), advertised as a $100 Opire reward, was rejected as untrustworthy and saturated. The issue has 1,849 comments and thousands of competing PRs (recent results already reached PR #4862). More importantly, a contributor recorded an Opire response that the repository is not integrated with Opire and issues #1–#4 are not registered rewards; repeated public requests for the creator to confirm funding and a payment process remain unanswered. No claim, code or PR was made.
+- [sybil-solutions/local-ai-registry#216](https://github.com/sybil-solutions/local-ai-registry/issues/216), [#217](https://github.com/sybil-solutions/local-ai-registry/issues/217), [#219](https://github.com/sybil-solutions/local-ai-registry/issues/219) and [#220](https://github.com/sybil-solutions/local-ai-registry/issues/220) each advertise $50, but require specific Intel/NVIDIA/AMD GPUs and measured full-window performance tests. They also already have multiple claims or passing submissions in the bounty ledger. Rejected under the no-hardware and low-competition requirements.
+- Other new matches were bounty research/control-board issues, unfunded feature reports, or SoroTask compound tasks with no verified reward commitment. No suitable unclaimed locally testable paid task appeared in this interval.
+- Work performed: verified primary issue comments, repository README/license, competition and current PR/CI state; no unsafe installers or third-party code were executed.
+- Payment status: **0 received**. No advertised amount was counted as earnings.
+- Next step: continue from the 2026-10-14 22:41 UTC cutoff, excluding claude-builders-bounty unless primary evidence of registered funding and actual payout appears; prioritize a funded, assigned, locally testable issue without hardware, wallet or deposit prerequisites.
+
