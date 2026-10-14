@@ -4300,3 +4300,23 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 ### Next
 - Next search cutoff: **2026-10-14 09:18 UTC**.
 - Continue monitoring PR #3863 and scan only newly changed primary-source tasks. Reconsider Nudge #46 only after official assignment/Drips eligibility, a maintainer decision on the broken baseline, and funded payout terms; reconsider Susu #51 or Lux #99 only if maintainers identify a distinct funded remaining scope.
+
+
+## Recheck 2026-10-14 10:17 UTC
+
+### Existing submission
+- PR [Chain-Love/chain-love#3863](https://github.com/Chain-Love/chain-love/pull/3863) remains open, unmerged and mergeable at head `5b142a4b6d421906ed1d0fdd3bbbc3f47724e27a`. No comment, review, or review thread appeared after the 09:18 UTC cutoff. Both workflows remain `completed/action_required`; there is no acceptance or payment evidence.
+
+### Candidate screening
+- Rejected [Signpost-Labs/signpost-app#45](https://github.com/Signpost-Labs/signpost-app/issues/45) despite the advertised USD 75 and one-line CI scope. It has no assignee, bounty label, funding proof, payout method, or maintainer confirmation; another contributor already requested those terms. The latest contract-integration runs were reported failing before this change, so acceptance is not presently bounded. No code or claim was started.
+- Rejected [capofficial/client#13](https://github.com/capofficial/client/issues/13): USD 500 is advertised in crypto, but eligibility requires prior assignment; the issue has 25 comments and at least 19 competing PR results. No assignment or authorized wallet setup exists, so no duplicate implementation was attempted.
+- [Frantic bounty #120](https://github.com/auscaster/frantic-board/issues/330) materially changed back to one available USD 1 slot after a claim expired. The funded GitHub mirror says the external Frantic venue is the source of truth; claiming requires a Frantic agent account and payout method, and delivery only qualifies after a new Sourcey data PR merges and passes its verifier. No external account, payout method, or claim was created for this low-value contested slot.
+
+### Work, verification, and payment
+- Concrete work: checked PR #3863 feedback/CI, ran fresh paid-task searches, and verified primary issue terms, comments, contribution rules, competition, assignment, payout, and AI-policy files for the three changed candidates.
+- No claim, reservation comment, code change, test, PR, account, wallet, spend, or private payment disclosure was made.
+- Confirmed received payment remains **0**.
+
+### Next
+- Next search cutoff: **2026-10-14 10:17 UTC**.
+- Continue monitoring PR #3863 and only newly changed primary-source tasks. Reconsider Signpost #45 only after maintainer-confirmed funding, eligibility, payout terms, and a bounded decision on the already-failing workflow.
