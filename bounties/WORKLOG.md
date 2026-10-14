@@ -4280,3 +4280,23 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 ### Next
 - Next search cutoff: **2026-10-14 07:29 UTC**.
 - Continue monitoring PR #3863 and scan only newly changed, directly funded tasks. Reconsider any rejected item only after a maintainer supplies a materially new funded slot, bounded acceptance criteria, and no conflicting accepted implementation.
+
+## Recheck 2026-10-14 09:18 UTC
+
+### Existing submission
+- PR [Chain-Love/chain-love#3863](https://github.com/Chain-Love/chain-love/pull/3863) remains open, unmerged and mergeable at head `5b142a4b6d421906ed1d0fdd3bbbc3f47724e27a`. No comment, review, or review thread appeared after the 07:29 UTC cutoff. Both workflows remain `completed/action_required`; there is no acceptance or payment evidence.
+
+### Candidate screening
+- Rejected [SUSU-LABS/susu-web#51](https://github.com/SUSU-LABS/susu-web/issues/51) despite the advertised USD 50 and locally testable TypeScript scope. The issue has no assignee or bounty label, ten comments, and nine directly competing PR results (#71, #78, #88, #96, #106, #115, #125, #137, #141). Recent contributors explicitly requested funding/payment confirmation, but no maintainer answer appeared. No tenth duplicate implementation was started.
+- Rejected [Nudge-Pay/nudge-app#46](https://github.com/Nudge-Pay/nudge-app/issues/46) despite the advertised USD 55 and zero submitted PRs. The repository's contribution rules require assignment before starting and state that Drips dashboard approval, not issue count, determines reward eligibility. The issue has no assignee or qualifying label; another contributor already disclosed an AI-assisted schedule patch and reported that current main fails typecheck, lint, formatting, Jest and build for unrelated syntax/baseline defects. No maintainer assignment, funded payout confirmation, or bounded decision on the broken baseline exists.
+- Rejected [Spectral-Finance/lux#99](https://github.com/Spectral-Finance/lux/issues/99): USD 600 is advertised, but the issue has 42 comments and at least 34 competing PR search results, with repeated unanswered questions about whether funding and remaining scope still exist.
+- Other resurfaced results were already rejected, required unavailable GPU/phone/game hardware, offered only USD 2 in crypto, were mirrors rather than primary tasks, or contained Opire boilerplate without an actual funded reward. No new low-competition, directly funded task with clear acceptance and payout terms was found.
+
+### Work, verification, and payment
+- Concrete work: checked PR #3863 feedback/CI state, ran four fresh GitHub searches, and verified the primary issues, comments, contribution rules, AI instructions, and competing PR volume for the plausible USD 50/55/600 leads.
+- No claim, reservation comment, duplicate PR, code change, test run, infrastructure spend, wallet creation, or payment disclosure was made.
+- Confirmed received payment remains **0**.
+
+### Next
+- Next search cutoff: **2026-10-14 09:18 UTC**.
+- Continue monitoring PR #3863 and scan only newly changed primary-source tasks. Reconsider Nudge #46 only after official assignment/Drips eligibility, a maintainer decision on the broken baseline, and funded payout terms; reconsider Susu #51 or Lux #99 only if maintainers identify a distinct funded remaining scope.
