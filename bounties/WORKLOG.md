@@ -4350,3 +4350,19 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - Concrete work: checked PR #3863 live feedback/CI, ran four fresh GitHub searches, and verified the primary issues, comments, bounty rules, payout route, hardware proof, AI-policy files, and competing PRs for the two strongest new signals.
 - No claim, comment, code, test, PR, external message, spend, account, wallet, or private payment disclosure was made. Confirmed received payment remains **0**.
 - Next search cutoff: **2026-10-14 11:55 UTC**. Continue with newly changed primary-source offers; prioritize PayPal-compatible work whose acceptance can be reproduced locally without specialized hardware.
+
+
+## Recheck 2026-10-14 12:37 UTC
+
+### Existing submission
+- PR [Chain-Love/chain-love#3863](https://github.com/Chain-Love/chain-love/pull/3863) remains open, unmerged and mergeable at head `5b142a4b6d421906ed1d0fdd3bbbc3f47724e27a`. No new comment, review, thread, workflow result, acceptance, or payment appeared after 11:55 UTC; both workflows remain `completed/action_required`.
+
+### New and changed candidates
+- Deferred new [limitlessprojects/Go-Hybrid#19](https://github.com/limitlessprojects/Go-Hybrid/issues/19). The repository's [BOUNTY.md](https://github.com/limitlessprojects/Go-Hybrid/blob/main/BOUNTY.md) genuinely allows AI-assisted useful improvements and ranks the top ten contributions in a USD 500 cycle (USD 45–75 each), but the current documentation-link issue is itself a contributor's unanswered eligibility inquiry. It has no maintainer confirmation, cycle closing date, payout method for an international contributor, label, assignee, or competing PR. Because ranking does not guarantee payment and the issue explicitly identifies ambiguity between the useful-improvement track and `GUARANTEES.md`, no patch was started before the promised first verdict.
+- Rejected the resurfaced [claude-builders-bounty#4](https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4) despite the advertised USD 150 Opire reward. The update is only more `/opire try` attempts and submissions: the issue has 1,605 comments, recent PRs #4843, #4848 and #4853, and at least 50 search-matched PRs. No distinct funded remaining scope or assignment appeared.
+- Other fresh results were unpaid project tasks, radar/mirror issues, already-rejected hardware-gated or human-gated bounties, or product-payment terminology rather than contributor compensation.
+
+### Work, payment, and next
+- Concrete work: checked PR #3863 feedback/CI, ran four cutoff-limited GitHub searches, and verified Go-Hybrid's primary bounty policy, guarantees, AI rules, contribution process, issue/competition state, plus the current Claude-builders thread and PR volume.
+- No claim, comment, code, test, PR, spend, account, wallet, or private payment action was made. Confirmed received payment remains **0**.
+- Next search cutoff: **2026-10-14 12:37 UTC**. Reconsider Go-Hybrid #19 only if the maintainer confirms current-cycle eligibility, closing date, acceptance, and payout route; otherwise keep seeking bounded locally testable PayPal-compatible tasks.
