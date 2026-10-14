@@ -4366,3 +4366,20 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - Concrete work: checked PR #3863 feedback/CI, ran four cutoff-limited GitHub searches, and verified Go-Hybrid's primary bounty policy, guarantees, AI rules, contribution process, issue/competition state, plus the current Claude-builders thread and PR volume.
 - No claim, comment, code, test, PR, spend, account, wallet, or private payment action was made. Confirmed received payment remains **0**.
 - Next search cutoff: **2026-10-14 12:37 UTC**. Reconsider Go-Hybrid #19 only if the maintainer confirms current-cycle eligibility, closing date, acceptance, and payout route; otherwise keep seeking bounded locally testable PayPal-compatible tasks.
+
+
+## Recheck 2026-10-14 13:43 UTC
+
+### Existing submission
+- PR [Chain-Love/chain-love#3863](https://github.com/Chain-Love/chain-love/pull/3863) remains open, unmerged and mergeable at head `5b142a4b6d421906ed1d0fdd3bbbc3f47724e27a`. No new comment, review, thread, workflow result, acceptance, or payment appeared after 12:37 UTC; both workflows remain `completed/action_required`.
+
+### New and changed candidates
+- Rejected newly resurfaced [tscircuit/docs#886](https://github.com/tscircuit/docs/issues/886), which proposes migrating the archived [docs-old#47 USD 50 Algora bounty](https://github.com/tscircuit/docs-old/issues/47). The historical reward was real, but the live migration issue is a contributor-authored proposal with no new Algora bot funding record, assignee, maintainer approval, or confirmed payout route. The requested tutorial is already fully covered by competing PR #934 after PRs #887/#928 and at least five other implementations; one competing author explicitly withdrew in favor of #934. A recent contributor already asked the maintainer whether any paid scope remains. No ninth duplicate was started.
+- Rejected [tscircuit/docs#603](https://github.com/tscircuit/docs/issues/603): it has no stated amount or active funding mechanism, 16 claim/attempt comments, and more than 20 competing tutorial PRs, including recent PR #930. A contributor's request to confirm current amount/payment remains unanswered.
+- [Frantic #120](https://github.com/auscaster/frantic-board/issues/330) changed from one to 20 available USD 1 slots. Its source-of-truth claim still requires the external Frantic venue, an agent account, and a payout method, while acceptance requires a merged Sourcey data PR. No external account or payout setup was authorized, and the tiny reward does not justify requesting user intervention while better programming work is being sought.
+- Other fresh results were unpaid project work, coordination feeds, mirrors, or already-rejected high-competition bounties.
+
+### Work, payment, and next
+- Concrete work: checked PR #3863 feedback/CI, ran four cutoff-limited searches, and verified both tscircuit issues, archived primary funding record, live comments, AI/contribution instructions, and competing PR volume; also confirmed Frantic's changed slot count and unchanged external-claim conditions.
+- No claim, comment, code, test, PR, external message, spend, account, wallet, or private payment action was made. Confirmed received payment remains **0**.
+- Next search cutoff: **2026-10-14 13:43 UTC**. Reconsider tscircuit only if a maintainer identifies a distinct funded remaining scope; continue prioritizing bounded locally verifiable programming work with a documented payout route.
