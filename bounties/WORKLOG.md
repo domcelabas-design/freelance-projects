@@ -4709,3 +4709,12 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - Fresh searches also returned [dsh-bounty #625](https://github.com/FuRongJun-1999/dsh-bounty/issues/625) and [#626](https://github.com/FuRongJun-1999/dsh-bounty/issues/626), whose bodies explicitly identify them as intake records rather than bounties. No eligible newly created fixed-price programming task remained.
 - Work/tests: primary-source issue labels, full instructions, reward/claim terms, AI-use constraints and PR status only. No code or test claim. Payment status: **0 received**.
 - Next step: search changes after 2026-10-15 21:32 UTC and monitor #3863 for new human review, workflow approval, merge or payment evidence.
+
+
+## Recheck 2026-10-15 23:22 UTC
+
+- Rechecked [Chain-Love/chain-love#3863](https://github.com/Chain-Love/chain-love/pull/3863): still open, unmerged and mergeable at `5b142a4b6d421906ed1d0fdd3bbbc3f47724e27a`; no new comment, review or review thread after the prior check. Both pull-request workflow runs remain completed with `action_required` (`Validate JSON` run 16694 and `SDK metadata tests` run 2). No acceptance or payment evidence.
+- Searched primary GitHub issue activity created or updated after `2026-10-15 21:32 UTC` for explicit bounty, reward, USD, USDC and PayPal terms. Fresh BountyScout/bounty-plaza hits were mirrors of the previously screened Parabola batch, not independent primary funding sources, so they were not reopened.
+- Screened [WeighInNG/WeighIn#48](https://github.com/WeighInNG/WeighIn/issues/48) from the new Stellar Wave technical backlog: open and unassigned, but the primary issue states no fixed cash amount or payout route, already has two applicants, and requires high-complexity real RPC/native/toolchain and hosted verification evidence. No code or claim submitted.
+- Payment status: **0 confirmed received**. Advertised or program-associated work is not counted as earned.
+- Next step: recheck #3863 and primary-source feedback/payment evidence after `2026-10-15 23:22 UTC`; then search only newly created or materially changed fixed-price tasks, verifying payout terms, assignment, competing PRs and AI policy before implementation.
