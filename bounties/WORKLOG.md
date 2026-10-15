@@ -4627,3 +4627,11 @@ This run checked live PR/reviews/comments, the prepared work record, and new iss
 - No code, test, claim, comment, PR, external account, wallet action, spend or unsafe execution. Confirmed received payment remains **0**.
 - Next: search changes after 2026-10-15 12:24 UTC; re-evaluate Earnly only if funding/escrow, AI eligibility and a compliant non-public payout path become explicit; monitor #3863 for human feedback or maintainer-approved CI.
 
+## Recheck 2026-10-15 13:26 UTC
+
+- [Chain.Love PR #3863](https://github.com/Chain-Love/chain-love/pull/3863) remains open, unmerged and mergeable at `5b142a4b6d421906ed1d0fdd3bbbc3f47724e27a`; no feedback after 2026-10-12 00:51 UTC, no review threads, and both head workflows remain `completed/action_required` pending upstream approval. No creator-side revision or payout evidence.
+- The newly screened Earnly openings are no longer low-competition: [#29](https://github.com/Earnly-Build/earnly/issues/29) received a wallet claim and [PR #35](https://github.com/Earnly-Build/earnly/pull/35); [#30](https://github.com/Earnly-Build/earnly/issues/30) received another wallet claim and [PR #31](https://github.com/Earnly-Build/earnly/pull/31). A contributor explicitly asked the maintainer to confirm funding, AI eligibility, payout timing and a conventional payment option, but no maintainer answer is present. Other Earnly bounty PRs #32–#34 appeared concurrently. Do not duplicate these implementations or publish a wallet address.
+- Fresh searches after 2026-10-15 12:24 UTC otherwise returned unfunded task descriptions, contribution intake records, saturated Claude-builder bounties, and Verdikta/Frantic flows that require payment, wallets or external registration. No compliant funded opening was found.
+- No code, test, claim, comment, PR, external account, wallet action, spend or unsafe execution. Confirmed received payment remains **0**.
+- Next: search changes after 2026-10-15 13:26 UTC for an owner-funded, unassigned coding task with explicit AI/payout terms and local tests; monitor #3863 only for new human feedback or maintainer-approved CI.
+
